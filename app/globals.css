@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #000;
+    --foreground: #fff;
+    --muted: #9a9a9a;
+    --border: #cfc796;
+  }
+}
+
+@layer base {
+  * {
+    @apply scroll-smooth border-border;
+  }
+
+  body {
+    @apply w-full min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    @apply px-[1rem];
+  }
+}

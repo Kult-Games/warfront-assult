@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)"],
+        syncopate: ["var(--font-syncopate)"],
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

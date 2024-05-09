@@ -15,7 +15,7 @@ import { AlignJustify } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 inset-x-0 py-4">
+    <header className="absolute top-0 inset-x-0 py-4 z-20">
       <nav className="container flex items-center justify-between">
         <Link href="/">
           <Image

@@ -6,7 +6,7 @@ import KeepUpToDateBgFlameImg from "@/public/imgs/keep-up-to-date-bg-img-gradien
 
 const Update = () => {
   return (
-    <section className="relative overflow-hidden w-full h-full">
+    <section className="relative overflow-hidden w-full h-full mt-20">
       <div>
         <Image
           src={KeepUpToDateBgImg}

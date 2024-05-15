@@ -3,7 +3,13 @@ import Image from "next/image";
 import ConvivalTextImg from "@/public/imgs/convival-text-img.png";
 import ConvivalBgImg from "@/public/imgs/convival-bg-img.png";
 import ConvivalCharacterImg from "@/public/imgs/convival-character-img1.png";
-import ConvivalTextureImg from "@/public/imgs/convival-texture-img.png";
+// import ConvivalTextureImg from "@/public/imgs/convival-texture-img.png";
+import VipPassIcon from "@/public/icons/vip-pass-icon.svg";
+import NftIcon from "@/public/icons/nft-icon.svg";
+import GamePassIcon from "@/public/icons/game-pass-icon.svg";
+import DiscountIcon from "@/public/icons/discount-icon.svg";
+import ValueAddIcon from "@/public/icons/value-add-icon.svg";
+import TokenSaleImg from "@/public/icons/token-sale-icon.svg";
 
 const Convival = () => {
   return (
@@ -11,30 +17,105 @@ const Convival = () => {
       <Image
         src={ConvivalBgImg}
         alt="img"
-        className="object-cover w-full inset-0 -z-10"
+        className="w-full h-full object-cover inset-0 "
       />
-      <div className="container flex justify-center items-center absolute bottom-0 h-full">
-        <div className=" ">
-          <Image src={ConvivalTextImg} alt="img" className="" />
-          <h1 className="font-alumiSans font-extrabold text-[80px] uppercase">
-            genesis pass
-          </h1>
-          <p className="font-alumiSans font-semibold text-2xl">
-            Before the official launch of Warfront Assault the first AAA game by
-            Convival Studio,We are set to unveil the &quot;Convival Genesis Pass&quot; –
-            an exclusive and highly coveted NFT from Convival Studio.
-          </p>
-          <div>
-            <h3 className="font-alumiSans font-semibold text-2xl">NFT Drop:</h3>
-            <p className="font-alumiSans font-semibold text-[20px]">
-              Pass holders stand a chance to receive NFT drops featuring in-game
-              items, skins, and mystery boxes.
+      <div className="absolute w-full h-full top-0">
+        <div className="container grid grid-cols-2 gap-20 justify-center items-center h-full">
+          <div className="flex flex-col gap-16 ">
+            <div className="space-y-2">
+              <Image src={ConvivalTextImg} alt="img" className="" />
+              <h1 className="font-alumiSans font-extrabold text-[80px] uppercase leading-none">
+                genesis pass
+              </h1>
+            </div>
+            <p className="font-alumiSans font-semibold text-2xl text-[#C0C0C0]">
+              Before the official launch of Warfront Assault the first AAA game
+              by Convival Studio,We are set to unveil the &quot;Convival Genesis
+              Pass&quot; – an exclusive and highly coveted NFT from Convival
+              Studio.
             </p>
+            <div className="flex gap-5 items-start">
+              <Image src={VipPassIcon} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  VIP Pass:
+                </h3>
+                <p className="text-xl font-semibold leading-none  w-[80%] ">
+                  Holders of the Convival Genesis Pass will enjoy VIP access,
+                  adorned with a Convival badge, to all events hosted by
+                  Convival Studio globally.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-11 items-start">
+              <Image src={NftIcon} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  NFT Drop:
+                </h3>
+                <p className="text-xl font-semibold leading-none w-[80%]  ">
+                  Pass holders stand a chance to receive NFT drops featuring
+                  in-game items, skins, and mystery boxes.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-5 items-start">
+              <Image src={GamePassIcon} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  Early Access Game Pass:
+                </h3>
+                <p className="text-xl font-semibold leading-none w-[80%] ">
+                  Owners of the Genesis NFT will gain early access to premium
+                  features within our gaming platform, allowing them to explore
+                  new releases and features ahead of other users.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-5 items-start">
+              <Image src={DiscountIcon} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  Special Discounts:
+                </h3>
+                <p className="text-xl font-semibold leading-none w-[80%] ">
+                  Enjoy exclusive discounts on in-game purchases, incentivizing
+                  users to engage more deeply with Convival's ecosystem and
+                  maximize their gaming enjoyment.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div>
-          <Image src={ConvivalCharacterImg} alt="img" />
-          {/* <Image src={ConvivalTextureImg} alt="img" /> */}
+          <div className="flex flex-col gap-16 ">
+            <Image src={ConvivalCharacterImg} alt="img" className="" />
+            <div className="flex gap-5 items-start">
+              <Image src={ValueAddIcon} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  Developer Insights & value addition:
+                </h3>
+                <p className="text-xl font-semibold  leading-none w-[80%]">
+                  Gain exclusive access to developer insights and
+                  behind-the-scenes content, offering a unique perspective into
+                  the game development process. NFT holders can contribute
+                  feedback and suggestions for future updates.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-5 items-start ">
+              <Image src={TokenSaleImg} alt="icon" />
+              <div className="space-y-4 font-alumiSans text-[#C0C0C0]">
+                <h3 className="text-2xl font-semibold leading-none text-white">
+                  Reservations for the Limited Edition NFT Drops & Token Sale:
+                </h3>
+                <p className="text-xl font-semibold  leading-none w-[80%]">
+                  Secure reservations for Limited Edition NFT Drops and
+                  participate in the Convival Studio Tokens sale at Public
+                  Round, ensuring priority access to special releases.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

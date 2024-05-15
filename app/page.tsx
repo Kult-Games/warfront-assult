@@ -16,8 +16,8 @@ export default function Home() {
       <Gamemode/>
       <Convival/>
       {/* <Nft/> */}
-      <Update/>
       <Roadmap/>
+      <Update/>
       {/* <Command/> */}
     </main>
   );

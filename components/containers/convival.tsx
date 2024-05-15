@@ -11,9 +11,9 @@ const Convival = () => {
       <Image
         src={ConvivalBgImg}
         alt="img"
-        className="object-cover w-full inset-0 -z-10 border"
+        className="object-cover w-full inset-0 -z-10"
       />
-      <div className="container flex justify-center items-center border absolute bottom-0 h-full">
+      <div className="container flex justify-center items-center absolute bottom-0 h-full">
         <div className=" ">
           <Image src={ConvivalTextImg} alt="img" className="" />
           <h1 className="font-alumiSans font-extrabold text-[80px] uppercase">

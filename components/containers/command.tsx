@@ -18,7 +18,7 @@ const Command = () => {
         alt="img"
         className="absolute self-center mx-auto inset-0"
       />
-      <div className="absolute self-center mx-auto inset-0 w-[46%] h-[50%] flex flex-col gap-12 items-center justify-center">
+      <div className="absolute self-center mx-auto inset-0 w-[46%] 2xl:w-[33%] h-[50%] flex flex-col gap-12 items-center justify-center ">
         <h1 className="font-alumiSans uppercase font-extrabold text-[64px] text-white text-center w-[80%] leading-none">The Warfront awaits your command</h1>
         <p className="font-alumiSans font-medium text-2xl text-white text-center">
           Amidst a world plunged into the throes of global conflict, governments

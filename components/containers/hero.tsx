@@ -28,8 +28,8 @@ const hero = () => {
 
               <h1 className="font-alumiSans font-extrabold text-[171px] uppercase leading-[140px] 2xl:leading-none">
                 assault
-                {/* <span className="bg-clip-text text-transparent" style={{backgroundImage:`url(${TextGoldenBgImg})`}}>assault</span> */}
-                {/* <Image
+                {/* <span className="bg-clip-text text-transparent" style={{backgroundImage:`url(${TextGoldenBgImg})`}}>assault</span>
+                <Image
                 src={TextGoldenBgImg}
                 alt="img"/> */}
               </h1>

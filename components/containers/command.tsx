@@ -24,7 +24,7 @@ const Command = () => {
           Amidst a world plunged into the throes of global conflict, governments
           vied for control, and alliances shattered like fragile glass. The
           chaos birthed a new breed of warriors, elite operatives known as
-          "Sentinels," who stood as the last line of defense against the
+          &quot; Sentinels,&quot; who stood as the last line of defense against the
           encroaching darkness.
         </p>
       </div>

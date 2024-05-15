@@ -34,7 +34,7 @@ const Gamemode = () => {
                 kill confirmed
               </h1>
               <p className="font-alumiSans font-medium text-2xl w-[65%]">
-                The Warfront beckons, and the Syndicate's grasp tightens. Will
+                The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will
                 you rise as a Sentinel, forge your legacy, and shape the course
                 of history? The Warfront awaits your command.
               </p>

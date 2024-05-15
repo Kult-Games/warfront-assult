@@ -3,21 +3,11 @@ import "./globals.css";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { alumni_sans, montserrat, syncopate } from "./fonts";
 
-import { Montserrat, Syncopate } from "next/font/google";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-montserrat",
-});
 
-const syncopate = Syncopate({
-  weight: ["400","700"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-syncopate",
-});
+
 
 export const metadata: Metadata = {
   title: "Warfront Assult",
@@ -31,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${syncopate.className}`}>
+      <body className={`${montserrat.variable} ${syncopate.variable} ${alumni_sans.variable}`}>
         <Header />
         {children}
         {/* <Footer /> */}

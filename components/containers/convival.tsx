@@ -80,7 +80,7 @@ const Convival = () => {
                 </h3>
                 <p className="text-xl font-semibold leading-none w-[80%] ">
                   Enjoy exclusive discounts on in-game purchases, incentivizing
-                  users to engage more deeply with Convival's ecosystem and
+                  users to engage more deeply with Convival&apos;s ecosystem and
                   maximize their gaming enjoyment.
                 </p>
               </div>

@@ -41,7 +41,7 @@ const Update = () => {
               </button>
             </div>
             <p className="text-center w-[58%] font-alumiSans text-xl text-white">
-              The Warfront beckons, and the Syndicate's grasp tightens. Will you
+              The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will you
               rise as a Sentinel, forge your legacy, and shape the course of
               history? The Warfront awaits your command.
             </p>

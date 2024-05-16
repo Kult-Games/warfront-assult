@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex-grow">
       <Hero />
       <Trailer />
-      {/* <Command/> */}
+      <Command/>
       {/* <Gamemode/> */}
       {/* <Convival/> */}
       {/* <Nft/> */}

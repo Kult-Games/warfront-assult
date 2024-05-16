@@ -26,8 +26,8 @@ export default function Header() {
             src={Logo}
             alt="img"
             priority
-            width={126.417}
-            height={58}
+            // width={126.417}
+            // height={58}
             className="w-[60px] lg:w-full h-[24] lg:h-auto"
           />
         </Link>

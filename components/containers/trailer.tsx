@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TrailerBgImg from "@/public/imgs/trailer-bg-img.png";
-import TrailerCharImg from "@/public/imgs/trailer-character.png";
+// import TrailerCharImg from "@/public/imgs/trailer-character.png";
 
 const Trailer = () => {
   return (
@@ -9,7 +9,7 @@ const Trailer = () => {
       <Image
         src={TrailerBgImg}
         alt="img"
-        className="object-cover w-full inset-0 -z-10"
+        className="object- object-center w-full h-[300px] lg:h-full  inset-0 -z-10"
       />
       <div className="flex">
         <video
@@ -17,7 +17,7 @@ const Trailer = () => {
           height="502"
           controls
           preload="none"
-          className="absolute self-center mx-auto inset-0"
+          className="absolute self-center mx-auto inset-0 w-[316px] h-[178px] lg:w-[892px] lg:h-[502px]"
         >
           <source src="/path/to/video.mp4" type="video/mp4" />
           <track

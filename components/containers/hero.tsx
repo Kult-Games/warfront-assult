@@ -6,13 +6,13 @@ import TextGoldenBgImg from "@/public/imgs/text-bg-golden-img.png";
 
 const hero = () => {
   return (
-    <section className="overflow-hidden relative w-screen h-full ">
+    <section className="overflow-hidden relative w-screen h-screen lg:h-full">
       <Image
         alt="img"
         src={HeroBgImg}
         placeholder="blur"
         priority
-        className="object-cover inset-0"
+        className="object-cover object-center inset-0 h-full w-full"
       />
       <div className="absolute inset-0 top-0">
         <div className="container relative h-full w-full flex justify-center items-center flex-col">
@@ -20,13 +20,13 @@ const hero = () => {
           <div className="absolute bottom-0 mb-[117px] 2xl:mb-[300px]">
             <div className="flex flex-col items-center ">
               <h2
-                className="font-alumiSans font-bold text-[40px] text-white uppercase leading-none"
+                className="font-alumiSans font-bold text-2xl lg:text-[40px] text-white uppercase leading-none"
                 style={{ letterSpacing: "0.39em" }}
               >
                 warfront
               </h2>
 
-              <h1 className="font-alumiSans font-extrabold text-[171px] uppercase leading-[140px] 2xl:leading-none">
+              <h1 className="font-alumiSans font-extrabold text-[128px] lg:text-[171px] uppercase leading-[140px] 2xl:leading-none">
                 assault
                 {/* <span className="bg-clip-text text-transparent" style={{backgroundImage:`url(${TextGoldenBgImg})`}}>assault</span>
                 <Image
@@ -35,7 +35,7 @@ const hero = () => {
               </h1>
             </div>
             <div className="flex flex-col items-center gap-[50px] mt-2">
-              <p className="font-alumiSans font-semibold text-xl text-white text-center w-[57%]">
+              <p className="font-alumiSans font-medium lg:font-semibold text-xl text-white text-center lg:w-[57%]">
                 Prepare for the ultimate war experience as you step onto the
                 front lines. Command your troops, strategize your moves, and
                 lead your faction to victory. The battlefield awaits your
@@ -43,7 +43,7 @@ const hero = () => {
               </p>
               <div className="relative flex items-center justify-center ">
                 <Image src={ButtonShadowImg} alt="img" className="absolute" />
-                <div className="flex gap-6  ">
+                <div className="flex flex-col lg:flex-row gap-6">
                   <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register
                   </button>

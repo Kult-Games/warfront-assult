@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/imgs/warfront-logo.png";
+import Logo from "@/public/icons/warfront-logo.svg";
 import { navLinks } from "@/constants";
 import TelegramIcon from "@/public/icons/telegram-icon.svg";
 import DiscordiconIcon from "@/public/icons/discord-icon.svg";
@@ -19,7 +19,7 @@ import { AlignJustify, TelescopeIcon } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 inset-x-0 py-4 z-20">
+    <header className="absolute mt-8 lg:mt-0 top-0 inset-x-0 py-4 z-20">
       <nav className="container flex items-center justify-between">
         <Link href="/">
           <Image
@@ -28,57 +28,62 @@ export default function Header() {
             priority
             width={126.417}
             height={58}
-            className="w-[106px] lg:w-full h-auto"
+            className="w-[60px] lg:w-full h-[24] lg:h-auto"
           />
         </Link>
         <ul className="max-lg:hidden flex gap-16 ">
           {navLinks.map((item, index) => (
-            <li key={index} className="uppercase font-alumiSans text-[22px] text-white">
+            <li
+              key={index}
+              className="uppercase font-alumiSans text-[22px] text-white"
+            >
               <Link href={item.link}>{item.label}</Link>
             </li>
           ))}
         </ul>
-        <div className="flex gap-6">
-          <Link href="/">
-            <Image
-              src={TelegramIcon}
-              alt="img"
-              priority
-              width={126.417}
-              height={58}
-              className="w-[106px] lg:w-full h-auto"
-            />
-          </Link>
-          <Link href="/">
-            <Image
-              src={DiscordiconIcon}
-              alt="img"
-              priority
-              width={126.417}
-              height={58}
-              className="w-[106px] lg:w-full h-auto"
-            />
-          </Link>
-          <Link href="/">
-            <Image
-              src={TwitterIcon}
-              alt="img"
-              priority
-              width={126.417}
-              height={58}
-              className="w-[106px] lg:w-full h-auto"
-            />
-          </Link>
-          <Link href="/">
-            <Image
-              src={InstagramIcon}
-              alt="img"
-              priority
-              width={126.417}
-              height={58}
-              className="w-[106px] lg:w-full h-auto"
-            />
-          </Link>
+        <div className="hidden lg:block">
+          <div className="flex gap-6">
+            <Link href="/">
+              <Image
+                src={TelegramIcon}
+                alt="img"
+                priority
+                width={126.417}
+                height={58}
+                className="w-[106px] lg:w-full h-auto"
+              />
+            </Link>
+            <Link href="/">
+              <Image
+                src={DiscordiconIcon}
+                alt="img"
+                priority
+                width={126.417}
+                height={58}
+                className="w-[106px] lg:w-full h-auto"
+              />
+            </Link>
+            <Link href="/">
+              <Image
+                src={TwitterIcon}
+                alt="img"
+                priority
+                width={126.417}
+                height={58}
+                className="w-[106px] lg:w-full h-auto"
+              />
+            </Link>
+            <Link href="/">
+              <Image
+                src={InstagramIcon}
+                alt="img"
+                priority
+                width={126.417}
+                height={58}
+                className="w-[106px] lg:w-full h-auto"
+              />
+            </Link>
+          </div>
         </div>
         <Sheet>
           <SheetTrigger className="lg:hidden">

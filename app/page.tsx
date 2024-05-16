@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <main className="flex-grow">
       <Hero />
-      <Trailer />
-      <Command/>
-      <Gamemode/>
-      <Convival/>
+      {/* <Trailer /> */}
+      {/* <Command/> */}
+      {/* <Gamemode/> */}
+      {/* <Convival/> */}
       {/* <Nft/> */}
-      <Roadmap/>
-      <Update/>
+      {/* <Roadmap/> */}
+      {/* <Update/> */}
       {/* <Command/> */}
     </main>
   );

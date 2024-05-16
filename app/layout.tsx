@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} ${syncopate.variable} ${alumni_sans.variable}`}>
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

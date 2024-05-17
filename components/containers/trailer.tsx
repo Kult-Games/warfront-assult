@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import TrailerBgImg from "@/public/imgs/trailer-bg-img.png";
-// import TrailerCharImg from "@/public/imgs/trailer-character.png";
+import TrailerBgImg from "@/public/imgs/tariler-bg-img.webp";
+import MobileTrailerBgImg from "@/public/imgs/mobile-trailer-bg-img.webp";
+// import MobileTrailerCharImg from "@/public/imgs/mobile-trailer-character-img.png";
 
 const Trailer = () => {
   return (
@@ -9,15 +10,20 @@ const Trailer = () => {
       <Image
         src={TrailerBgImg}
         alt="img"
-        className="object- object-center w-full h-[300px] lg:h-full  inset-0 -z-10"
+        className="hidden md:block object-cover object-center w-full h-full "
       />
-      <div className="flex">
+      <Image
+        src={MobileTrailerBgImg}
+        alt="img"
+        className="md:hidden object-cover object-center w-full h-full "
+      />
+      <div className="hidden fle">
         <video
           width="892"
           height="502"
           controls
           preload="none"
-          className="absolute self-center mx-auto inset-0 w-[316px] h-[178px] lg:w-[892px] lg:h-[502px]"
+          className=" absolute self-center mx-auto inset-0 w-[316px] h-[178px] lg:w-[892px] lg:h-[502px]"
         >
           <source src="/path/to/video.mp4" type="video/mp4" />
           <track
@@ -28,12 +34,12 @@ const Trailer = () => {
           />
           Your browser does not support the video tag.
         </video>
-        {/* <Image
-          src={TrailerCharImg}
-          alt="img"
-          className=" absolute top-0 -right-16 h-[600px] w-[750px]"
-        /> */}
       </div>
+      {/* <Image
+        src={MobileTrailerCharImg}
+        alt="img"
+        className=" absolute top-0 right-0 h-[90%]"
+      /> */}
     </section>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import CommandBgImg from "@/public/imgs/command-bg-img.webp";
 import CommaandBoxImg from "@/public/imgs/commend-box-img.png";
-import MobileCommandBgImg from "@/public/imgs/mobile-command-bg-img.png";
+import MobileCommandBgImg from "@/public/imgs/mobile-command-bg-img.webp";
 import MobileCommandBoxImg from "@/public/imgs/mobile-commend-box-img.png";
 
 const Command = () => {

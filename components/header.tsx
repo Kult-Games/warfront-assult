@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/icons/warfront-logo.svg";
+import Logo from "@/public/imgs/warfront-logo.webp";
 import { navLinks } from "@/constants";
 import TelegramIcon from "@/public/icons/telegram-icon.svg";
 import DiscordiconIcon from "@/public/icons/discord-icon.svg";

@@ -28,18 +28,14 @@ const hero = () => {
           <div className="absolute bottom-0 mb-[85px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
             <div className="flex flex-col items-center ">
               <h2
-                className="font-alumiSans font-bold text-2xl lg:text-[40px] text-white uppercase leading-none"
+                className="bg-text text-stroke font-alumiSans font-bold text-2xl lg:text-[40px] text-white uppercase leading-none"
                 style={{ letterSpacing: "0.39em" }}
               >
                 warfront
               </h2>
 
-              <h1 className="font-alumiSans font-extrabold text-[128px] lg:text-[171px] uppercase leading-[125px] 2xl:leading-none">
+              <h1 className="bg-text text-stroke font-alumiSans font-extrabold text-[128px] lg:text-[171px] uppercase leading-[125px] 2xl:leading-none [-webkit-text-stroke-width:0.5px] [-webkit-text-stroke-color:#FFF]">
                 assault
-                {/* <span className="bg-clip-text text-transparent" style={{backgroundImage:`url(${TextGoldenBgImg})`}}>assault</span>
-                <Image
-                src={TextGoldenBgImg}
-                alt="img"/> */}
               </h1>
             </div>
             <div className="flex flex-col items-center gap-[50px] ">

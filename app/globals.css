@@ -32,3 +32,19 @@
     @apply px-[1rem];
   }
 }
+
+.bg-text{
+  background-image: url("/imgs/text-bg-golden-img.png");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.text-stroke{
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: #FFF;
+
+}

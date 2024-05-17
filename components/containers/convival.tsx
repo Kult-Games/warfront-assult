@@ -30,8 +30,8 @@ const Convival = () => {
             </div>
             <p className="font-alumiSans font-semibold text-2xl text-[#C0C0C0]">
               Before the official launch of Warfront Assault the first AAA game
-              by Convival Studio,We are set to unveil the &quot;Convival Genesis
-              Pass&quot; – an exclusive and highly coveted NFT from Convival
+              by Convival Studio,We are set to unveil the "Convival Genesis
+              Pass" – an exclusive and highly coveted NFT from Convival
               Studio.
             </p>
             <div className="flex gap-5 items-start">

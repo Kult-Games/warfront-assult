@@ -14,7 +14,7 @@ export default function Home() {
       <Trailer />
       <Command/>
       {/* <Gamemode/> */}
-      {/* <Convival/> */}
+      <Convival/>
       {/* <Nft/> */}
       {/* <Roadmap/> */}
       {/* <Update/> */}

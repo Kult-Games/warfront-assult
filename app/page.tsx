@@ -17,7 +17,7 @@ export default function Home() {
       <Convival/>
       {/* <Nft/> */}
       {/* <Roadmap/> */}
-      {/* <Update/> */}
+      <Update/>
       {/* <Command/> */}
     </main>
   );

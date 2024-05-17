@@ -1,5 +1,6 @@
+"use client"
 import React from "react";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 import Image from "next/image";
 import ConvivalTextImg from "@/public/imgs/convival-text-img.png";
 import ConvivalBgImg from "@/public/imgs/convival-bg-img.webp";
@@ -26,9 +27,9 @@ const Convival = () => {
       <Image
         src={MobileConvivalBgImg}
         alt="img"
-        className="absolute top-0 lg:hidden object-cover inset-0 "
+        className="top-0 lg:hidden object-cover inset-0 "
       />
-      <div className="absolute w-full h-full top-0 flex justify-center items-center">
+      <div className="absolute w-full h-full top-0 flex justify-center items-center ">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20  justify-center items-center h-full">
           <div className="flex flex-col items-center lg:items-start gap-10 ">
             <div className="mt-10 ">

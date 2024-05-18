@@ -37,14 +37,15 @@ const Update = () => {
                 placeholder="Enter your email here......"
                 className="py-4 font-alumiSans font-medium text-xl lg:w-[40%] h-full pl-7 bg-transparent border backdrop-blur outline-none"
               />
-              <button className="px-8 py-4 border font-montserrat text-base uppercase">
+              {/* <button className="px-8 py-4 border font-montserrat text-base uppercase">
                 pre-register
-              </button>
+              </button> */}
+              <button className="kave-btn px-8 py-4">pre-register</button>
             </div>
             <p className="text-center  lg:w-[58%] font-alumiSans text-xl text-white">
-              The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will you
-              rise as a Sentinel, forge your legacy, and shape the course of
-              history? The Warfront awaits your command.
+              The Warfront beckons, and the Syndicate&apos;s grasp tightens.
+              Will you rise as a Sentinel, forge your legacy, and shape the
+              course of history? The Warfront awaits your command.
             </p>
           </div>
         </div>

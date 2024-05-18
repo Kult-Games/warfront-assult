@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import RoadMapImg from "@/public/imgs/roadmap-img.png"
+import RoadMapImg from "@/public/imgs/roadmap-img.png";
 import RoadMapBgImg from "@/public/imgs/roadmap-bg-img.png";
 import PolygonImg from "@/public/imgs/polygon-img.png";
 import LeftArrowImg from "@/public/imgs/left-arrow-img.png";
@@ -12,7 +12,7 @@ const Roadmap = () => {
       <Image
         src={RoadMapBgImg}
         alt="dark background img"
-        className="w-full h-full object-cover"
+        className="w-[390px] h-[622px] lg:w-full lg:h-full object-cover"
       />
 
       <div className="absolute top-0 w-full h-full">
@@ -38,9 +38,9 @@ const Roadmap = () => {
                   </div>
                 </div>
                 <Image
-                src={RoadMapImg}
-                alt="img"
-                className="mt-[71px] w-[241px] h-[148px]"
+                  src={RoadMapImg}
+                  alt="img"
+                  className="mt-[71px] w-[241px] h-[148px]"
                 />
                 <div className="p-4 flex flex-col gap-6">
                   <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
@@ -65,9 +65,9 @@ const Roadmap = () => {
                   </div>
                 </div>
                 <Image
-                src={RoadMapImg}
-                alt="img"
-                className="mt-[71px] w-[241px] h-[148px]"
+                  src={RoadMapImg}
+                  alt="img"
+                  className="mt-[71px] w-[241px] h-[148px]"
                 />
                 <div className="p-4 flex flex-col gap-6">
                   <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
@@ -92,9 +92,9 @@ const Roadmap = () => {
                   </div>
                 </div>
                 <Image
-                src={RoadMapImg}
-                alt="img"
-                className="mt-[71px] w-[241px] h-[148px]"
+                  src={RoadMapImg}
+                  alt="img"
+                  className="mt-[71px] w-[241px] h-[148px]"
                 />
                 <div className="p-4 flex flex-col gap-6">
                   <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
@@ -119,9 +119,9 @@ const Roadmap = () => {
                   </div>
                 </div>
                 <Image
-                src={RoadMapImg}
-                alt="img"
-                className="mt-[71px] w-[241px] h-[148px]"
+                  src={RoadMapImg}
+                  alt="img"
+                  className="mt-[71px] w-[241px] h-[148px]"
                 />
                 <div className="p-4 flex flex-col gap-6">
                   <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
@@ -135,7 +135,6 @@ const Roadmap = () => {
                   </p>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

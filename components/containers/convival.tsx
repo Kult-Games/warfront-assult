@@ -61,7 +61,7 @@ const Convival = () => {
                   <h3 className="text-2xl font-semibold leading-none text-white">
                     VIP Pass:
                   </h3>
-                  <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none w-[95%] md:w-[80%]">
+                  <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none w-[95%] md:w-[80%]">
                     Holders of the Convival Genesis Pass will enjoy VIP access,
                     adorned with a Convival badge, to all events hosted by
                     Convival Studio globally.
@@ -74,7 +74,7 @@ const Convival = () => {
                   <h3 className="text-2xl font-semibold leading-none text-white">
                     NFT Drop:
                   </h3>
-                  <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
+                  <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
                     Pass holders stand a chance to receive NFT drops featuring
                     in-game items, skins, and mystery boxes.
                   </p>
@@ -86,7 +86,7 @@ const Convival = () => {
                   <h3 className="text-2xl font-semibold leading-none text-white">
                     Early Access Game Pass:
                   </h3>
-                  <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
+                  <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
                     Owners of the Genesis NFT will gain early access to premium
                     features within our gaming platform, allowing them to
                     explore new releases and features ahead of other users.
@@ -99,7 +99,7 @@ const Convival = () => {
                   <h3 className="text-2xl font-semibold leading-none text-white">
                     Special Discounts:
                   </h3>
-                  <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
+                  <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none  w-[95%] md:w-[80%] ">
                     Enjoy exclusive discounts on in-game purchases,
                     incentivizing users to engage more deeply with
                     Convival&apos;s ecosystem and maximize their gaming
@@ -121,7 +121,7 @@ const Convival = () => {
                 <h3 className="text-2xl font-semibold leading-none text-white">
                   Developer Insights & value addition:
                 </h3>
-                <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none  w-[95%] md:w-[80%]">
+                <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none  w-[95%] md:w-[80%]">
                   Gain exclusive access to developer insights and
                   behind-the-scenes content, offering a unique perspective into
                   the game development process. NFT holders can contribute
@@ -135,7 +135,7 @@ const Convival = () => {
                 <h3 className="text-2xl font-semibold leading-none text-white">
                   Reservations for the Limited Edition NFT Drops & Token Sale:
                 </h3>
-                <p className="font-alumiSans text-lg md:text-xl font-semibold leading-none  w-[95%] md:w-[80%]">
+                <p className="font-alumiSans text-xs md:text-xl font-semibold leading-none  w-[95%] md:w-[80%]">
                   Secure reservations for Limited Edition NFT Drops and
                   participate in the Convival Studio Tokens sale at Public
                   Round, ensuring priority access to special releases.

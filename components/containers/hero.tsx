@@ -24,8 +24,9 @@ const hero = () => {
       />
       <div className="absolute inset-0 top-0">
         <div className="container relative h-full w-full flex justify-center items-center flex-col">
-          <Image src={TextShadowImg} alt="img" className="" />
-          <div className="absolute bottom-0 mb-[85px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
+          {/* <Image src={TextShadowImg} alt="img" className="h-full w-full border" /> */}
+          <div className="h-full w-full bg-shadow rounded-full absolute"></div>
+          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
             <div className="flex flex-col items-center ">
               <h2
                 className="bg-text text-stroke font-alumiSans font-bold text-2xl lg:text-[40px] text-white uppercase leading-none"
@@ -34,7 +35,7 @@ const hero = () => {
                 warfront
               </h2>
 
-              <h1 className="bg-text text-stroke font-alumiSans font-extrabold text-[128px] lg:text-[171px] uppercase leading-[125px] 2xl:leading-none [-webkit-text-stroke-width:0.5px] [-webkit-text-stroke-color:#FFF]">
+              <h1 className="bg-text text-stroke font-alumiSans font-extrabold text-[138px] lg:text-[171px] uppercase leading-[125px] 2xl:leading-none [-webkit-text-stroke-width:0.5px] [-webkit-text-stroke-color:#FFF]">
                 assault
               </h1>
             </div>
@@ -53,9 +54,7 @@ const hero = () => {
               <div className="relative flex items-center justify-center ">
                 <Image src={ButtonShadowImg} alt="img" className="absolute" />
                 <div className="flex flex-col md:flex-row gap-6">
-                  <button className="kave-btn px-8 py-4">
-                    comming soon
-                  </button>
+                  <button className="kave-btn px-8 py-4">comming soon</button>
                   {/* <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register
                   </button> */}

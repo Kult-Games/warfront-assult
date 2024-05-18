@@ -33,6 +33,15 @@
   }
 }
 
+.bg-shadow {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 63%);
+}
+
+
+
 .bg-text{
   background-image: url("/imgs/text-bg-golden-img.png");
   background-clip: text;

@@ -59,7 +59,11 @@ const Gamemode = () => {
 
             <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
               <div className="flex gap-10 justify-between">
-                <Image src={OneTextImg} alt="img" className="h-[144px] w-[130px] md:h-auto md:w-auto"/>
+                <Image
+                  src={OneTextImg}
+                  alt="img"
+                  className="h-[144px] w-[130px] md:h-auto md:w-auto"
+                />
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
@@ -72,7 +76,8 @@ const Gamemode = () => {
                     command.
                   </p>
                   <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
-                  Will you rise as a Sentinel, forge your legacy, and shape the course of history?
+                    Will you rise as a Sentinel, forge your legacy, and shape
+                    the course of history?
                   </p>
                   <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 ">
                     {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
@@ -97,17 +102,25 @@ const Gamemode = () => {
 
             <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
               <div className="flex gap-10 justify-between">
-                <Image src={TwoTextImg} alt="img" className="h-[144px] w-[130px] md:h-auto md:w-auto"/>
+                <Image
+                  src={TwoTextImg}
+                  alt="img"
+                  className="h-[144px] w-[130px] md:h-auto md:w-auto"
+                />
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
-                  TEAM DEATHMATCH
+                    TEAM DEATHMATCH
                   </h1>
                   <p className="hidden md:block font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
-                  The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will you rise as a Sentinel, forge your legacy, and shape the course of history? The Warfront awaits your command.
+                    The Warfront beckons, and the Syndicate&apos;s grasp
+                    tightens. Will you rise as a Sentinel, forge your legacy,
+                    and shape the course of history? The Warfront awaits your
+                    command.
                   </p>
                   <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
-                  Will you rise as a Sentinel, forge your legacy, and shape the course of history?
+                    Will you rise as a Sentinel, forge your legacy, and shape
+                    the course of history?
                   </p>
                   <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 ">
                     {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
@@ -132,17 +145,25 @@ const Gamemode = () => {
 
             <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
               <div className="flex gap-10 justify-between">
-                <Image src={ThreeTextImg} alt="img" className="h-[144px] w-[130px] md:h-auto md:w-auto"/>
+                <Image
+                  src={ThreeTextImg}
+                  alt="img"
+                  className="h-[144px] w-[130px] md:h-auto md:w-auto"
+                />
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
-                  FREE FOR ALL
+                    FREE FOR ALL
                   </h1>
                   <p className="hidden md:block font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
-                  The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will you rise as a Sentinel, forge your legacy, and shape the course of history? The Warfront awaits your command
+                    The Warfront beckons, and the Syndicate&apos;s grasp
+                    tightens. Will you rise as a Sentinel, forge your legacy,
+                    and shape the course of history? The Warfront awaits your
+                    command
                   </p>
                   <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
-                  Will you rise as a Sentinel, forge your legacy, and shape the course of history?
+                    Will you rise as a Sentinel, forge your legacy, and shape
+                    the course of history?
                   </p>
                   <div className="flex gap-1 lg:gap-10  ml-3 md:ml-0 ">
                     {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
@@ -167,17 +188,25 @@ const Gamemode = () => {
 
             <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
               <div className="flex gap-10 justify-between">
-                <Image src={FourTextImg} alt="img" className="h-[144px] w-[130px] md:h-auto md:w-auto"/>
+                <Image
+                  src={FourTextImg}
+                  alt="img"
+                  className="h-[144px] w-[130px] md:h-auto md:w-auto"
+                />
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
-                  CAPTURE THE FLAG
+                    CAPTURE THE FLAG
                   </h1>
                   <p className="hidden md:block font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
-                  The Warfront beckons, and the Syndicate&apos;s grasp tightens. Will you rise as a Sentinel, forge your legacy, and shape the course of history? The Warfront awaits your command.
+                    The Warfront beckons, and the Syndicate&apos;s grasp
+                    tightens. Will you rise as a Sentinel, forge your legacy,
+                    and shape the course of history? The Warfront awaits your
+                    command.
                   </p>
                   <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
-                  Will you rise as a Sentinel, forge your legacy, and shape the course of history?
+                    Will you rise as a Sentinel, forge your legacy, and shape
+                    the course of history?
                   </p>
                   <div className="flex gap-1 lg:gap-10  ml-3 md:ml-0">
                     {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
@@ -194,13 +223,21 @@ const Gamemode = () => {
             </div>
           </SwiperSlide>
 
-          
-          <div className="flex gap-8 lg:gap-12 absolute bottom-10 lg:bottom-12  left-[45%] lg:left-[41%] z-10">
-            <button className="slide-prev">
-            <Image src={LeftArrowImg} alt="img" className="cursor-pointer h-[36px] w-[36px] lg:h-full lg:w-full"  />
+          {/* <div className="flex gap-8 lg:gap-12 absolute bottom-10 lg:bottom-12  left-[45%] lg:left-[41%] z-10"> */}
+          <div className="absolute px-5 md:px-0 w-full md:w-fit h-fit flex justify-between md:justify-normal gap-8 lg:gap-12 bottom-[260px] md:bottom-10 lg:left-[41%] z-10 ">
+            <button className="slide-prev ">
+              <Image
+                src={LeftArrowImg}
+                alt="img"
+                className="cursor-pointer h-[36px] w-[36px] lg:h-[60px] lg:w-[60px]"
+              />
             </button>
-            <button  className="slide-next">
-            <Image src={RightArrowImg} alt="img" className="cursor-pointer h-[36px] w-[36px] lg:h-full lg:w-full" />
+            <button className="slide-next">
+              <Image
+                src={RightArrowImg}
+                alt="img"
+                className="cursor-pointer h-[36px] w-[36px] lg:h-[60px] lg:w-[60px]"
+              />
             </button>
           </div>
         </Swiper>

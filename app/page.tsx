@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <Trailer />
       <Command/>
-      {/* <Gamemode/> */}
+      <Gamemode/>
       <Convival/>
       {/* <Nft/> */}
       {/* <Roadmap/> */}

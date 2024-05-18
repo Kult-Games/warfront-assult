@@ -4,6 +4,8 @@ import CommandBgImg from "@/public/imgs/command-bg-img.webp";
 import CommaandBoxImg from "@/public/imgs/commend-box-img.png";
 import MobileCommandBgImg from "@/public/imgs/mobile-command-bg-img.webp";
 import MobileCommandBoxImg from "@/public/imgs/mobile-commend-box-img.png";
+import TextGoldenGradientImg from "@/public/imgs/command-text-gradient.png";
+
 
 const Command = () => {
   return (
@@ -33,10 +35,18 @@ const Command = () => {
       />
       <div className="absolute  w-[80%] md:w-[70%] lg:w-[67%] xl:w-[47%] 2xl:w-[35%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="containe flex flex-col gap-6 md:gap-16 lg:gap-12 justify-center items-center">
-          <h1 className="bg-text font-alumiSans uppercase font-extrabold text-[32px] md:text-[40px] lg:text-[64px] text-white text-center w-[80%] leading-[40px] lg:leading-none">
-            The Warfront awaits your command
-          </h1>
-          <p className="bg-text font-alumiSans font-semibold text-[18px] lg:font-medium lg:text-2xl text-white text-center px-4 lg:px-0 w-[85%] md:w-[95%] lg:w-full">
+          <div className="relative flex justify-center">
+            <h1 className="bg-text font-alumiSans uppercase font-extrabold text-[32px] md:text-[40px] lg:text-[64px] text-white text-center w-[85%] leading-[40px] lg:leading-none">
+              The Warfront awaits your command
+            </h1>
+            <Image
+            src={TextGoldenGradientImg}
+            alt="img"
+            // className="absolute border -top-[50] lg:-top-[75px] lg:-left-[50px]"
+            className="absolute  -top-[30px] lg:-top-[75px]"
+            />
+          </div>
+          <p className="font-alumiSans font-semibold text-[18px] lg:font-medium lg:text-2xl text-white text-center px-4 lg:px-0 w-[85%] md:w-[95%] lg:w-full">
             Amidst a world plunged into the throes of global conflict,
             governments vied for control, and alliances shattered like fragile
             glass. The chaos birthed a new breed of warriors, elite operatives

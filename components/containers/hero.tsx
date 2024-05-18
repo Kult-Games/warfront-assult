@@ -53,12 +53,18 @@ const hero = () => {
               <div className="relative flex items-center justify-center ">
                 <Image src={ButtonShadowImg} alt="img" className="absolute" />
                 <div className="flex flex-col md:flex-row gap-6">
-                  <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
+                  <button className="kave-btn px-8 py-4">
+                    comming soon
+                  </button>
+                  {/* <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
+                    pre-register
+                  </button> */}
+                  {/* <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register
                   </button>
                   <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

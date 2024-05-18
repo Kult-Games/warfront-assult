@@ -31,7 +31,7 @@ const Convival = () => {
       />
       <div className="absolute w-full h-full top-0 flex justify-center items-center ">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20  justify-center items-center h-full">
-          <div className="flex flex-col items-center lg:items-start gap-10 ">
+          <div className="flex flex-col items-center lg:items-start gap-10">
             <div className="mt-10 ">
               <Image
                 src={ConvivalTextImg}

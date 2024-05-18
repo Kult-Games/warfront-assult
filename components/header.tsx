@@ -19,7 +19,7 @@ import { AlignJustify, TelescopeIcon } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="absolute mt-8 lg:mt-0 top-0 inset-x-0 py-4 z-20">
+    <header className="absolute lg:mt-0 top-0 inset-x-0 z-20">
       <nav className="container flex items-center justify-between">
         <Link href="/">
           <Image
@@ -28,7 +28,7 @@ export default function Header() {
             priority
             // width={126.417}
             // height={58}
-            className="w-[60px] lg:w-full h-[24] lg:h-auto"
+            className="h-[100px] w-[100px] lg:h-[78px] lg:w-[78px]"
           />
         </Link>
         <ul className="max-lg:hidden flex gap-16 ">

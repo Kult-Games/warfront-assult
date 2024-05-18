@@ -23,9 +23,9 @@ const hero = () => {
         className=" md:hidden object-cover object-center h-full w-full "
       />
       <div className="absolute inset-0 top-0">
-        <div className="container relative h-full w-full flex justify-center items-center flex-col">
-          {/* <Image src={TextShadowImg} alt="img" className="h-full w-full border" /> */}
-          <div className="h-full w-full bg-shadow rounded-full absolute"></div>
+        <div className="container relative h-full w-full flex justify-center items-center flex-col ">
+          <Image src={TextShadowImg} alt="img" className="h-full w-full hidden md:block"/>
+          <div className=" md:hidden absolute h-full w-full  bg-shadow"></div>
           <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
             <div className="flex flex-col items-center ">
               <h2

@@ -18,7 +18,7 @@ const Roadmap = () => {
         src={RoadMapBgImg}
         alt="dark background img"
         // className="w-full h-[622px] lg:w-full lg:h-full object-cover"
-        className="w-full h-full lg:w-full lg:h-full object-cover"
+        className="w-full h-[625px] lg:w-full lg:h-full object-cover"
       />
 
       <div className="absolute top-0 w-full h-full ">

@@ -22,16 +22,16 @@ const Convival = () => {
       <Image
         src={ConvivalBgImg}
         alt="img"
-        className=" hidden md:block object-cover inset-0 "
+        className=" hidden md:block object-cover lg:inset-0 "
       />
       <Image
         src={MobileConvivalBgImg}
         alt="img"
         className="top-0 lg:hidden object-cover inset-0 "
       />
-      <div className="absolute w-full h-full top-0 flex justify-center items-center ">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20  justify-center items-center h-full">
-          <div className="flex flex-col items-center lg:items-start gap-10">
+      <div className="absolute w-full lg:h-full max-lg:pt-24 top-0 flex justify-center lg:items-center ">
+        <div className="container grid  lg:grid-cols-2 gap-16  md:gap-20  lg:justify-center lg:items-center lg:h-full">
+          <div className="flex flex-col items-center lg:items-start gap-16">
             <div className="mt-10 ">
               <Image
                 src={ConvivalTextImg}
@@ -109,7 +109,7 @@ const Convival = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-10 lg:gap-12">
+          <div className="flex flex-col gap-16 lg:gap-12">
             <Image
               src={ConvivalCharacterImg}
               alt="img"

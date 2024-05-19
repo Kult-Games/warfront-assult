@@ -7,7 +7,7 @@ import MobileKeepUpToDateBgImg from "@/public/imgs/mobile-keep-up-to-date-bg-img
 
 const Update = () => {
   return (
-    <section className="relative overflow-hidden w-full h-full mt-20">
+    <section className="relative overflow-hidden w-full h-full lg:mt-20">
       <div>
         <Image
           src={MobileKeepUpToDateBgImg}

@@ -16,7 +16,7 @@ export default function Home() {
       <Gamemode/>
       <Convival/>
       {/* <Nft/> */}
-      {/* <Roadmap/> */}
+      <Roadmap/>
       <Update/>
       {/* <Command/> */}
     </main>

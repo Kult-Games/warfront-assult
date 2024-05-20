@@ -31,7 +31,7 @@ const Hero = () => {
             className="h-full w-full hidden md:block  opacity-50"
           />
           <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[200px]">
+          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] ">
             <div className="flex flex-col items-center">
               <h2
                 className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"
@@ -41,9 +41,12 @@ const Hero = () => {
                 warfront
               </h2>
 
-              <h1 className="bg-text  font-alumiSans font-extrabold text-[140px] lg:text-[195px] uppercase leading-[125px] 2xl:leading-none ">
+              <h1 className="bg-text  font-alumiSans font-extrabold text-[140px] lg:text-[195px] uppercase leading-[125px] lg:leading-none ">
                 assault
               </h1>
+              {/* <div className="wrapper ">
+                <h1 className="glitch">Glitch</h1>
+              </div> */}
             </div>
             <div className="flex flex-col items-center gap-10">
               <p className="md:block font-alumiSans font-medium lg:font-semibold text-xl text-white text-center w-[80%] lg:w-[57%] ">

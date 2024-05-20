@@ -99,7 +99,7 @@ const Roadmap = () => {
               className="w-full flex"
             >
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto overflow-visible border-t-4">
+                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto overflow-visible border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center z-10">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -118,19 +118,17 @@ const Roadmap = () => {
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
+                    Partnership & Inception
                     </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
+                    <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
+                     <li>Strategic Alliance: Form a pivotal partnership with Aptos Network, leveraging blockchain technology to enhance the game</li>
+                     <li>Development Kickoff: Officially commence the development of the game</li>
+                    </ul>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -149,19 +147,17 @@ const Roadmap = () => {
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
+                    Launch & Community Building
                     </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
+                    <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
+                     <li>Global Launch: Roll out  on all major platforms, becoming the biggest game on Aptos</li>
+                     <li>Community Engagement: Foster a vibrant community through interactive events, Q&A sessions, and social media campaigns.</li>
+                    </ul>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[512px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -180,19 +176,17 @@ const Roadmap = () => {
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
+                    Feature Expansion & Beta Testing
                     </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
+                    <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
+                     <li>New Game Modes: Introduce thrilling new game modes, weapons, and maps.</li>
+                     <li>Beta Testing: Release beta versions of upcoming features, allowing players to test and provide feedback on new content.</li>
+                    </ul>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12 ">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[512px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -211,19 +205,17 @@ const Roadmap = () => {
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
+                    Competitive Play & Continuous Development
                     </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
+                    <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
+                     <li>Tournaments & Events: Host competitive events and tournaments to engage players</li>
+                     <li>Seasonal Updates: Launch seasonal content updates, introducing new challenges and missions.</li>
+                    </ul>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -242,79 +234,16 @@ const Roadmap = () => {
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
+                    Establishing as an Industry Leader
                     </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
+                    <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
+                     <li>Expert Recognition: Cement &quot;Warfront Assault&quot; and Convival Studio as leaders in the gaming industry.</li>
+                     <li>Expanding Horizons: Explore partnerships and collaborations with other industry experts to further enhance the game's ecosystem.</li>
+                    </ul>
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
-                  <div className="absolute -top-[48px] flex justify-center items-center">
-                    <Image src={PolygonImg} alt="img" className="" />
-                    <div className="absolute flex flex-col items-center uppercase">
-                      <h3 className=" font-alumiSans font-semibold text-[40px] leading-none">
-                        q6
-                      </h3>
-                      <p className="font-alumiSans font-normal text-2xl">
-                        2024
-                      </p>
-                    </div>
-                  </div>
-                  <Image
-                    src={RoadMapImg}
-                    alt="img"
-                    className="mt-[71px] w-[241px] h-[148px]"
-                  />
-                  <div className="p-4 flex flex-col gap-6">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
-                    </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[487px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
-                  <div className="absolute -top-[48px] flex justify-center items-center">
-                    <Image src={PolygonImg} alt="img" className="" />
-                    <div className="absolute flex flex-col items-center uppercase">
-                      <h3 className=" font-alumiSans font-semibold text-[40px] leading-none">
-                        q7
-                      </h3>
-                      <p className="font-alumiSans font-normal text-2xl">
-                        2024
-                      </p>
-                    </div>
-                  </div>
-                  <Image
-                    src={RoadMapImg}
-                    alt="img"
-                    className="mt-[71px] w-[241px] h-[148px]"
-                  />
-                  <div className="p-4 flex flex-col gap-6">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                      coming soon
-                    </h2>
-                    <p className="font-alumiSans font-medium text-xl">
-                      Prepare for the ultimate war experience as you step onto
-                      the front lines. Command your troops, strategize your
-                      moves, and lead your faction to victory. The battlefield
-                      awaits your tactical brilliance and fearless leadership.
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
+              
             </Swiper>
           </div>
         </div>

@@ -51,7 +51,7 @@ const Hero = () => {
                 assault
               </h1>
             </div>
-            <div className="flex flex-col items-center gap-[50px] mt-5">
+            <div className="flex flex-col items-center gap-[50px] lg:mt-5">
               <p className="md:block font-alumiSans font-medium lg:font-semibold text-xl text-white text-center w-[80%] lg:w-[57%] ">
                 Engage in the ultimate combat experience on Aptos Your
                 battlefield, your rules. Deploy now!

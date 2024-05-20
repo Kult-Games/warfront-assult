@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import TrailerBgImg from "@/public/imgs/tariler-bg-img.png";
-import MobileTrailerBgImg from "@/public/imgs/mobile-trailer-bg-img.webp";
+import MobileTrailerBgImg from "@/public/imgs/mobile-trailer-bg-img.png";
 import PlayIcon from "@/public/icons/play-icon.svg";
 // import MobileTrailerCharImg from "@/public/imgs/mobile-trailer-character-img.png";
 
@@ -22,7 +22,7 @@ const Trailer = () => {
         className="md:hidden object-cover object-center w-full h-full "
       />
       <button onClick={() => setShow(true)} className="absolute z-30">
-        <Image src={PlayIcon} alt="icon"  />
+        <Image src={PlayIcon} alt="icon" className="max-lg:w-[60%] max-lg:ml-5"/>
       </button>
       {show && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-md flex items-center justify-center z-50">

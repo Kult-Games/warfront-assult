@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import RoadMapBgImg from "@/public/imgs/roadmap-bg-img.webp"
+import RoadMapBgImg from "@/public/imgs/roadmap-bg-img.webp";
 import RoadMapImg from "@/public/imgs/roadmap-img.png";
 import PolygonImg from "@/public/imgs/polygon-img.png";
 import LeftArrowImg from "@/public/imgs/left-arrow-img.png";
@@ -81,6 +81,7 @@ const Roadmap = () => {
 
             <Swiper
               modules={[Navigation]}
+              loop
               navigation={{
                 prevEl: ".slide-prev",
                 nextEl: ".slide-next",
@@ -118,11 +119,18 @@ const Roadmap = () => {
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                    Partnership & Inception
+                      Partnership & Inception
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
-                     <li>Strategic Alliance: Form a pivotal partnership with Aptos Network, leveraging blockchain technology to enhance the game</li>
-                     <li>Development Kickoff: Officially commence the development of the game</li>
+                      <li>
+                        Strategic Alliance: Form a pivotal partnership with
+                        Aptos Network, leveraging blockchain technology to
+                        enhance the game
+                      </li>
+                      <li>
+                        Development Kickoff: Officially commence the development
+                        of the game
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -147,11 +155,18 @@ const Roadmap = () => {
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                    Launch & Community Building
+                      Launch & Community Building
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
-                     <li>Global Launch: Roll out  on all major platforms, becoming the biggest game on Aptos</li>
-                     <li>Community Engagement: Foster a vibrant community through interactive events, Q&A sessions, and social media campaigns.</li>
+                      <li>
+                        Global Launch: Roll out on all major platforms, becoming
+                        the biggest game on Aptos
+                      </li>
+                      <li>
+                        Community Engagement: Foster a vibrant community through
+                        interactive events, Q&A sessions, and social media
+                        campaigns.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -176,11 +191,18 @@ const Roadmap = () => {
                   /> */}
                   <div className="p-4 flex flex-col gap-6 mt-5">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                    Feature Expansion & Beta Testing
+                      Feature Expansion & Beta Testing
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
-                     <li>New Game Modes: Introduce thrilling new game modes, weapons, and maps.</li>
-                     <li>Beta Testing: Release beta versions of upcoming features, allowing players to test and provide feedback on new content.</li>
+                      <li>
+                        New Game Modes: Introduce thrilling new game modes,
+                        weapons, and maps.
+                      </li>
+                      <li>
+                        Beta Testing: Release beta versions of upcoming
+                        features, allowing players to test and provide feedback
+                        on new content.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -205,11 +227,17 @@ const Roadmap = () => {
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                    Competitive Play & Continuous Development
+                      Competitive Play & Continuous Development
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
-                     <li>Tournaments & Events: Host competitive events and tournaments to engage players</li>
-                     <li>Seasonal Updates: Launch seasonal content updates, introducing new challenges and missions.</li>
+                      <li>
+                        Tournaments & Events: Host competitive events and
+                        tournaments to engage players
+                      </li>
+                      <li>
+                        Seasonal Updates: Launch seasonal content updates,
+                        introducing new challenges and missions.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -234,16 +262,22 @@ const Roadmap = () => {
                   /> */}
                   <div className="p-4 flex flex-col gap-6 mt-5">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
-                    Establishing as an Industry Leader
+                      Establishing as an Industry Leader
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
-                     <li>Expert Recognition: Cement &quot;Warfront Assault&quot; and Convival Studio as leaders in the gaming industry.</li>
-                     <li>Expanding Horizons: Explore partnerships and collaborations with other industry experts to further enhance the game&apos;s ecosystem.</li>
+                      <li>
+                        Expert Recognition: Cement &quot;Warfront Assault&quot;
+                        and Convival Studio as leaders in the gaming industry.
+                      </li>
+                      <li>
+                        Expanding Horizons: Explore partnerships and
+                        collaborations with other industry experts to further
+                        enhance the game&apos;s ecosystem.
+                      </li>
                     </ul>
                   </div>
                 </div>
               </SwiperSlide>
-              
             </Swiper>
           </div>
         </div>

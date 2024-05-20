@@ -28,9 +28,9 @@ const Hero = () => {
           <Image
             src={TextShadowImg}
             alt="img"
-            className="h-full w-full hidden md:block  opacity-60"
+            className="h-full w-full hidden md:block  opacity-50"
           />
-          <div className=" md:hidden absolute w-full opacity-60 bg-shadow"></div>
+          <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
           <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[200px]">
             <div className="flex flex-col items-center">
               <h2

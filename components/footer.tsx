@@ -1,4 +1,4 @@
-import Logo from "@/public/imgs/warfront-logo.webp";
+import Logo from "@/public/icons/warfront-logo.svg"
 import Image from "next/image";
 import TelegramIcon from "@/public/icons/telegram-icon.svg";
 import DiscordiconIcon from "@/public/icons/discord-icon.svg";

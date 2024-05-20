@@ -1,13 +1,20 @@
+
+
 import Image from "next/image";
 import HeroBgImg from "@/public/imgs/hero-bg-img.webp";
 import MobileHeroBgImg from "@/public/imgs/mobile-hero-bg-img.webp";
 import TextShadowImg from "@/public/imgs/hero-text-shadow-img.png";
 import ButtonShadowImg from "@/public/imgs/hero-button-shadow-img.png";
 // import TextGoldenBgImg from "@/public/imgs/text-bg-golden-img.png";
+import AptosLogo from "@/public/imgs/aptos-logo.png"
 
-const hero = () => {
+
+const Hero = () => {
+  
+  
   return (
-    <section className="overflow-hidden relative w-screen h-screen lg:h-full">
+    <section className="relative overflow-hidden  w-screen h-screen lg:h-full">
+      
       <Image
         alt="img"
         src={HeroBgImg}
@@ -24,37 +31,41 @@ const hero = () => {
       />
       <div className="absolute inset-0 top-0">
         <div className="container relative h-full w-full flex justify-center items-center flex-col ">
-          <Image src={TextShadowImg} alt="img" className="h-full w-full hidden md:block"/>
+          <Image
+            src={TextShadowImg}
+            alt="img"
+            className="h-full w-full hidden md:block"
+          />
           <div className=" md:hidden absolute h-full w-full  bg-shadow"></div>
           <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
-            <div className="flex flex-col items-center ">
+            <div className="flex flex-col items-center  lg:gap-5">
               <h2
-                className="bg-text text-stroke font-alumiSans font-bold text-2xl lg:text-[40px] text-white uppercase leading-none"
+                className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none tracking-[39%]"
                 style={{ letterSpacing: "0.39em" }}
+                // style={{ letterSpacing: "39%" }}
               >
                 warfront
               </h2>
 
-              <h1 className="bg-text text-stroke font-alumiSans font-extrabold text-[138px] lg:text-[171px] uppercase leading-[125px] 2xl:leading-none [-webkit-text-stroke-width:0.5px] [-webkit-text-stroke-color:#FFF]">
+              <h1 className="bg-text  font-alumiSans font-extrabold text-[140px] lg:text-[195px] uppercase leading-[125px] 2xl:leading-none ">
                 assault
               </h1>
             </div>
-            <div className="flex flex-col items-center gap-[50px] ">
-              <p className="hidden md:block font-alumiSans font-medium lg:font-semibold text-xl text-white text-center w-[70%] lg:w-[57%] ">
-                Prepare for the ultimate war experience as you step onto the
-                front lines. Command your troops, strategize your moves, and
-                lead your faction to victory. The battlefield awaits your
-                tactical brilliance and fearless leadership.
-              </p>
-              <p className="md:hidden font-alumiSans font-medium text-xl text-white text-center w-[85%] mt-3">
-                Prepare for the ultimate war experience as you step onto the
-                front lines. The battlefield awaits your tactical brilliance and
-                fearless leadership.
+            <div className="flex flex-col items-center gap-[50px] mt-5">
+              <p className="md:block font-alumiSans font-medium lg:font-semibold text-xl text-white text-center w-[80%] lg:w-[57%] ">
+                Engage in the ultimate combat experience on Aptos Your
+                battlefield, your rules. Deploy now!
               </p>
               <div className="relative flex items-center justify-center ">
                 <Image src={ButtonShadowImg} alt="img" className="absolute" />
                 <div className="flex flex-col md:flex-row gap-6">
-                  <button className="kave-btn px-8 py-4">comming soon</button>
+                  <button className="kave-btn px-8 py-4 flex items-center gap-3 font-medium">COMING SOON ON
+                  <Image 
+                  src={AptosLogo}
+                  alt="aptos-logo"
+                  className="w-[100px] h-[25px]"
+                  />
+                  </button>
                   {/* <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register
                   </button> */}
@@ -74,4 +85,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;

@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import React from "react";
-// import Lottie from "lottie-react";
+import Lottie from "lottie-react";
 import Image from "next/image";
 import ConvivalTextImg from "@/public/imgs/convival-text-img.png";
 import ConvivalBgImg from "@/public/imgs/convival-bg-img.webp";
 import MobileConvivalBgImg from "@/public/imgs/mobile-convival-bg-img.webp";
-import ConvivalCharacterImg from "@/public/imgs/convival-character-img1.webp";
+import ConvivalCharacterImg from "@/public/imgs/convival-character-img.png";
 // import ConvivalTextureImg from "@/public/imgs/convival-texture-img.png";
 import VipPassIcon from "@/public/icons/vip-pass-icon.svg";
 import NftIcon from "@/public/icons/nft-icon.svg";
@@ -13,12 +13,11 @@ import GamePassIcon from "@/public/icons/game-pass-icon.svg";
 import DiscountIcon from "@/public/icons/discount-icon.svg";
 import ValueAddIcon from "@/public/icons/value-add-icon.svg";
 import TokenSaleImg from "@/public/icons/token-sale-icon.svg";
-// import BoxAnimation from "@/public/animation/Weapon-crete.json";
+import BoxAnimation from "@/public/animation/Weapon-crete.json";
 
 const Convival = () => {
   return (
     <section className="relative">
-      {/* <Lottie animationData={BoxAnimation} loop={true} /> */}
       <Image
         src={ConvivalBgImg}
         alt="img"
@@ -50,11 +49,19 @@ const Convival = () => {
             </p>
 
             <div className="flex flex-col items-center md:items-start gap-14 md:gap-16 ">
-              <Image
-                src={ConvivalCharacterImg}
-                alt="img"
-                className="lg:hidden"
-              />
+              <div className="relative lg:hidden">
+                <Image
+                  src={ConvivalCharacterImg}
+                  alt="img"
+                  className="lg:hidden"
+                />
+                <Lottie
+                  animationData={BoxAnimation}
+                  loop={true}
+                  className="absolute  bottom-12 w-[70%] left-[50%] translate-x-[-50%]"
+                />
+              </div>
+
               <div className=" w-full flex flex-col lg:flex-row gap-5 items-center lg:items-start">
                 <Image src={VipPassIcon} alt="icon" />
                 <div className="space-y-4 font-alumiSans text-[#C0C0C0] text-center lg:text-start flex flex-col items-center lg:items-start">
@@ -110,11 +117,18 @@ const Convival = () => {
             </div>
           </div>
           <div className="flex flex-col gap-16 lg:gap-12">
-            <Image
-              src={ConvivalCharacterImg}
-              alt="img"
-              className="hidden lg:block"
-            />
+            <div className="relative hidden lg:block">
+              <Image
+                src={ConvivalCharacterImg}
+                alt="img"
+                className="hidden lg:block"
+              />
+              <Lottie
+                animationData={BoxAnimation}
+                loop={true}
+                className="absolute  lg:bottom-24 w-[65%] left-[30%]"
+              />
+            </div>
             <div className="w-full flex flex-col lg:flex-row  gap-5 items-center lg:items-start">
               <Image src={ValueAddIcon} alt="icon" />
               <div className="space-y-4 font-alumiSans text-[#C0C0C0] text-center lg:text-start flex flex-col items-center lg:items-start">

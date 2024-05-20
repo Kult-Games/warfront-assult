@@ -43,7 +43,7 @@
 
 
 .bg-text{
-  background-image: url("/imgs/text-bg-golden-img.png");
+  background-image: url("/imgs/text-bg-golden-img.jpg");
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

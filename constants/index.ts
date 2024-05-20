@@ -1,22 +1,14 @@
 export const navLinks = [
   {
-    label: "Home",
+    label: "GAME MODES",
     link: "/",
   },
   {
-    label: "PRICES",
+    label: "GENESIS PASS",
     link: "/",
   },
   {
-    label: "SHOPS",
-    link: "/",
-  },
-  {
-    label: "blogs",
-    link: "/",
-  },
-  {
-    label: "elements",
+    label: "ROADMAP",
     link: "/",
   },
 ];

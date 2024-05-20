@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import RoadMapBgImg from "@/public/imgs/roadmap-bg-img.webp"
 import RoadMapImg from "@/public/imgs/roadmap-img.png";
-import RoadMapBgImg from "@/public/imgs/roadmap-bg-img.png";
 import PolygonImg from "@/public/imgs/polygon-img.png";
 import LeftArrowImg from "@/public/imgs/left-arrow-img.png";
 import RightArrowImg from "@/public/imgs/right-arrow-img.png";
@@ -80,7 +80,7 @@ const Roadmap = () => {
             </div> */}
 
             <Swiper
-            modules={[Navigation]}
+              modules={[Navigation]}
               navigation={{
                 prevEl: ".slide-prev",
                 nextEl: ".slide-next",

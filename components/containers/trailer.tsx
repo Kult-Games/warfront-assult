@@ -1,12 +1,16 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
-import TrailerBgImg from "@/public/imgs/tariler-bg-img.webp";
+import TrailerBgImg from "@/public/imgs/tariler-bg-img.png";
 import MobileTrailerBgImg from "@/public/imgs/mobile-trailer-bg-img.webp";
+import PlayIcon from "@/public/icons/play-icon.svg";
 // import MobileTrailerCharImg from "@/public/imgs/mobile-trailer-character-img.png";
 
 const Trailer = () => {
+  const [show, setShow] = useState(false);
   return (
-    <section className="overflow-hidden relative w-full h-full">
+    <section className="overflow-hidden relative w-full h-full flex items-center justify-center">
       <Image
         src={TrailerBgImg}
         alt="img"
@@ -17,24 +21,22 @@ const Trailer = () => {
         alt="img"
         className="md:hidden object-cover object-center w-full h-full "
       />
-      <div className="hidden fle">
-        <video
-          width="892"
-          height="502"
-          controls
-          preload="none"
-          className=" absolute self-center mx-auto inset-0 w-[316px] h-[178px] lg:w-[892px] lg:h-[502px]"
-        >
-          <source src="/path/to/video.mp4" type="video/mp4" />
-          <track
-            src="/path/to/captions.vtt"
-            kind="subtitles"
-            srcLang="en"
-            label="English"
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+      <button onClick={() => setShow(true)} className="absolute z-30">
+        <Image src={PlayIcon} alt="icon"  />
+      </button>
+      {show && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-md flex items-center justify-center z-50">
+          <div
+            onClick={() => setShow(false)}
+            className="absolute top-5 right-5"
+          >
+            X
+          </div>
+          <video autoPlay controls className="w-[80%] h-auto">
+            <source src="/imgs/teaser.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
       {/* <Image
         src={MobileTrailerCharImg}
         alt="img"

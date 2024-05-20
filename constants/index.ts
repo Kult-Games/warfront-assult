@@ -1,15 +1,15 @@
 export const navLinks = [
   {
     label: "GAME MODES",
-    link: "/",
+    link: "#game-mode",
   },
   {
     label: "GENESIS PASS",
-    link: "/",
+    link: "#genesis-pass",
   },
   {
     label: "ROADMAP",
-    link: "/",
+    link: "#roadmap",
   },
 ];
 

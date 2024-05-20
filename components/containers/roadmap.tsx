@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 const Roadmap = () => {
   return (
-    <section className="relative w-full h-full max-lg:pb-44">
+    <section id="roadmap" className="relative w-full h-full max-lg:pb-44">
       <Image
         src={RoadMapBgImg}
         alt="dark background img"

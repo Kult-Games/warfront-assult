@@ -38,7 +38,7 @@ const Gamemode = () => {
   };
 
   return (
-    <section className="relative">
+    <section id="game-mode" className="relative">
       <div className="flex flex-col items-center justify-center ">
         <Image
           src={GameModebgImg}

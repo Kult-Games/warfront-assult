@@ -17,7 +17,7 @@ import BoxAnimation from "@/public/animation/Weapon-crete.json";
 
 const Convival = () => {
   return (
-    <section className="relative">
+    <section id="genesis-pass" className="relative">
       <Image
         src={ConvivalBgImg}
         alt="img"

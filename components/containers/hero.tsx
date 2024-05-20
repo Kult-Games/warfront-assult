@@ -1,7 +1,7 @@
 
 
 import Image from "next/image";
-import HeroBgImg from "@/public/imgs/hero-bg-img.webp";
+import HeroBgImg from "@/public/imgs/hero-bg-img-2.png";
 import MobileHeroBgImg from "@/public/imgs/mobile-hero-bg-img.webp";
 import TextShadowImg from "@/public/imgs/hero-text-shadow-img.png";
 import ButtonShadowImg from "@/public/imgs/hero-button-shadow-img.png";

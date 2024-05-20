@@ -49,7 +49,7 @@ const Gamemode = () => {
           OUR GAME MODES
         </h1>
       </div>
-      <div className="relative">
+      <div className="relative ">
         <Swiper
           modules={[EffectFade, Navigation]}
           effect={"fade"}
@@ -59,6 +59,22 @@ const Gamemode = () => {
             nextEl: ".slide-next",
           }}
         >
+          <div className="absolute bottom-12 z-20 left-[44%] lg:left-[48%] flex gap-8">
+            <button className="slide-prev">
+              <Image
+                src={LeftArrowImg}
+                alt="img"
+                className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+              />
+            </button>
+            <button className="slide-next">
+              <Image
+                src={RightArrowImg}
+                alt="img"
+                className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+              />
+            </button>
+          </div>
           <SwiperSlide>
             <Image
               src={KillConfirmdBgImg}
@@ -66,8 +82,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={OneTextImg}
                   alt="img"
@@ -79,26 +95,12 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
                     kill confirmed
                   </h1>
-                  <p className="font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
+                  <p className="font-alumiSans font-medium text-base lg:text-2xl lg:w-[65%]">
                     Players confirm kills by collecting dog tags from fallen
                     enemies.
                   </p>
-                  {/* <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
-                    Will you rise as a Sentinel, forge your legacy, and shape
-                    the course of history?
-                  </p> */}
-                  {/* <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 absolute bottom-0  ">
-                    <div className="bg-red-500 h-16 w-[6px]"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                  </div> */}
 
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -119,8 +121,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={TwoTextImg}
                   alt="img"
@@ -132,7 +134,7 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
                     TEAM DEATHMATCH
                   </h1>
-                  <p className="font-alumiSans font-medium text-base lg:text-2xl w-[85%]">
+                  <p className="font-alumiSans font-medium text-base lg:text-2xl lg:w-[85%]">
                     Classic team-based battle, focusing on achieving a set
                     number of kills
                   </p>
@@ -140,7 +142,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-5 lg:w-16 h-2 rounded-sm"></div>
                     <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -161,8 +163,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={ThreeTextImg}
                   alt="img"
@@ -174,7 +176,7 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
                     FREE FOR ALL
                   </h1>
-                  <p className=" font-alumiSans font-medium text-base lg:text-2xl w-[85%]">
+                  <p className=" font-alumiSans font-medium text-base lg:text-2xl lg:w-[85%]">
                     A free-for-all mode where every player competes individually
                     to achieve the highest kill count
                   </p>
@@ -182,7 +184,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
@@ -203,8 +205,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={FourTexteImg}
                   alt="img"
@@ -224,7 +226,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p>
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -245,8 +247,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={FiveTextImg}
                   alt="img"
@@ -258,7 +260,7 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none lg:leading-[100px] ">
                     SEARCH AND DESTROY
                   </h1>
-                  <p className="font-alumiSans font-medium text-base lg:text-2xl w-[95%]">
+                  <p className="font-alumiSans font-medium text-base lg:text-2xl lg:w-[95%]">
                     A classic mode where one team plants a bomb, and the other
                     defends or defuses
                   </p>
@@ -266,7 +268,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4 ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -287,8 +289,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={SixTextImg}
                   alt="img"
@@ -300,7 +302,7 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
                     Conquest
                   </h1>
-                  <p className="font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
+                  <p className="font-alumiSans font-medium text-base lg:text-2xl lg:w-[65%]">
                     Teams vie for control over key points on the map to gain
                     point
                   </p>
@@ -308,7 +310,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -329,8 +331,8 @@ const Gamemode = () => {
               className="object-cover h-[389px] w-[749px] md:h-full md:w-full inset-0 -z-10"
             />
 
-            <div className="container absolute bottom-0 mb-20 lg:mb-24 2xl:mb-32">
-              <div className="flex gap-10 justify-between">
+            <div className="container absolute bottom-0 lg:left-[10%] mb-20 lg:mb-24 2xl:mb-32">
+              <div className="flex gap-5 lg:gap-10 justify-between">
                 <Image
                   src={SevenTextImg}
                   alt="img"
@@ -342,7 +344,7 @@ const Gamemode = () => {
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
                     RUSH
                   </h1>
-                  <p className="font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
+                  <p className="font-alumiSans font-medium text-base lg:text-2xl lg:w-[65%]">
                     An attack/defense mode where attackers aim to plant bombs,
                     and defenders strive to prevent it
                   </p>
@@ -350,7 +352,7 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4 ">
+                  <div className="flex gap-1 lg:gap-6 absolute bottom-4 lg:bottom-8">
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
@@ -365,22 +367,6 @@ const Gamemode = () => {
           </SwiperSlide>
 
           {/* <div className="flex gap-8 lg:gap-12 absolute bottom-10 lg:bottom-12  left-[45%] lg:left-[41%] z-10"> */}
-          <div className="absolute px-5 md:px-0 w-full md:w-fit h-fit flex justify-between md:justify-normal gap-8 lg:gap-12 bottom-[260px] md:bottom-10 lg:left-[41%] z-20 ">
-            <button className="slide-prev">
-              <Image
-                src={LeftArrowImg}
-                alt="img"
-                className="cursor-pointer h-[50px] w-[50px] lg:h-[60px] lg:w-[60px]"
-              />
-            </button>
-            <button className="slide-next">
-              <Image
-                src={RightArrowImg}
-                alt="img"
-                className="cursor-pointer h-[50px] w-[50px] lg:h-[60px] lg:w-[60px]"
-              />
-            </button>
-          </div>
         </Swiper>
       </div>
     </section>

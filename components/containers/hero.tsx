@@ -1,20 +1,14 @@
-
-
 import Image from "next/image";
 import HeroBgImg from "@/public/imgs/hero-bg-img-2.png";
-import MobileHeroBgImg from "@/public/imgs/mobile-hero-bg-img.webp";
+import MobileHeroBgImg from "@/public/imgs/hero-bg-img-2-sm.png";
 import TextShadowImg from "@/public/imgs/hero-text-shadow-img.png";
 import ButtonShadowImg from "@/public/imgs/hero-button-shadow-img.png";
 // import TextGoldenBgImg from "@/public/imgs/text-bg-golden-img.png";
-import AptosLogo from "@/public/imgs/aptos-logo.png"
-
+import AptosLogo from "@/public/imgs/aptos-logo.png";
 
 const Hero = () => {
-  
-  
   return (
     <section className="relative overflow-hidden  w-screen h-screen lg:h-full">
-      
       <Image
         alt="img"
         src={HeroBgImg}
@@ -34,9 +28,9 @@ const Hero = () => {
           <Image
             src={TextShadowImg}
             alt="img"
-            className="h-full w-full hidden md:block"
+            className="h-full w-full hidden md:block  opacity-60"
           />
-          <div className=" md:hidden absolute w-full  bg-shadow"></div>
+          <div className=" md:hidden absolute w-full opacity-60 bg-shadow"></div>
           <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[200px]">
             <div className="flex flex-col items-center">
               <h2
@@ -59,12 +53,13 @@ const Hero = () => {
               <div className="relative flex items-center justify-center ">
                 <Image src={ButtonShadowImg} alt="img" className="absolute" />
                 <div className="flex flex-col md:flex-row gap-6">
-                  <button className="kave-btn px-8 py-4 flex items-center gap-3 font-medium">COMING SOON ON
-                  <Image 
-                  src={AptosLogo}
-                  alt="aptos-logo"
-                  className="w-[100px] h-[25px]"
-                  />
+                  <button className="kave-btn px-8 py-4 flex items-center gap-3 font-medium">
+                    COMING SOON ON
+                    <Image
+                      src={AptosLogo}
+                      alt="aptos-logo"
+                      className="w-[100px] h-[25px]"
+                    />
                   </button>
                   {/* <button className="px-8 py-4 border font-montserrat text-base uppercase z-20">
                     pre-register

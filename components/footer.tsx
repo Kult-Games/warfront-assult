@@ -8,6 +8,7 @@ import Link from "next/link";
 
 import AptosImg from "@/public/imgs/aptos-logo.png";
 import ConvivalImg from "@/public/imgs/convival-text-img.png";
+import { Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -25,17 +26,14 @@ export default function Footer() {
 
             <div className="flex flex-col items-end gap-10 pr-12">
               <div className="flex gap-9">
-                <Link href="/">
+                <Link href="https://t.me/convival">
                   <Image alt="icon" src={TelegramIcon} />
                 </Link>
-                <Link href="/">
-                  <Image alt="icon" src={DiscordiconIcon} />
-                </Link>
-                <Link href="/">
+                <Link href="https://x.com/convival_io?s=21">
                   <Image alt="icon" src={TwitterIcon} />
                 </Link>
-                <Link href="/">
-                  <Image alt="icon" src={InstagramIcon} />
+                <Link href="https://www.convival.io/">
+                  <Globe className="text-border" />
                 </Link>
               </div>
               <div className="flex items-center justify-end gap-5">
@@ -100,17 +98,14 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex gap-4">
-              <Link href="/">
+              <Link href="https://t.me/convival">
                 <Image alt="icon" src={TelegramIcon} />
               </Link>
-              <Link href="/">
-                <Image alt="icon" src={DiscordiconIcon} />
-              </Link>
-              <Link href="/">
+              <Link href="https://x.com/convival_io?s=21">
                 <Image alt="icon" src={TwitterIcon} />
               </Link>
-              <Link href="/">
-                <Image alt="icon" src={InstagramIcon} />
+              <Link href="https://www.convival.io/">
+                <Globe className="text-border" />
               </Link>
             </div>
             <div className="flex items-center justify-center gap-5 mt-5">

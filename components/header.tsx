@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/icons/warfront-logo.svg"
+import Logo from "@/public/icons/warfront-logo.svg";
 import { navLinks } from "@/constants";
 import TelegramIcon from "@/public/icons/telegram-icon.svg";
 import DiscordiconIcon from "@/public/icons/discord-icon.svg";
 import TwitterIcon from "@/public/icons/twitter-icon.svg";
 import InstagramIcon from "@/public/icons/instagram-icon.svg";
-import HamburgeIcon from "@/public/icons/mobile- hamburge-menu-icon.svg"
+import HamburgeIcon from "@/public/icons/mobile- hamburge-menu-icon.svg";
 
 import {
   Sheet,
@@ -16,7 +16,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { AlignJustify, Images, TelescopeIcon } from "lucide-react";
+import { AlignJustify, Globe, Images, TelescopeIcon } from "lucide-react";
 
 export default function Header() {
   return (
@@ -44,7 +44,7 @@ export default function Header() {
         </ul>
         <div className="hidden lg:block">
           <div className="flex gap-6">
-            <Link href="/">
+            <Link href="https://t.me/convival">
               <Image
                 src={TelegramIcon}
                 alt="img"
@@ -54,7 +54,7 @@ export default function Header() {
                 className="w-[106px] lg:w-full h-auto"
               />
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
               <Image
                 src={DiscordiconIcon}
                 alt="img"
@@ -63,8 +63,8 @@ export default function Header() {
                 height={58}
                 className="w-[106px] lg:w-full h-auto"
               />
-            </Link>
-            <Link href="/">
+            </Link> */}
+            <Link href="https://x.com/convival_io?s=21">
               <Image
                 src={TwitterIcon}
                 alt="img"
@@ -74,7 +74,10 @@ export default function Header() {
                 className="w-[106px] lg:w-full h-auto"
               />
             </Link>
-            <Link href="/">
+            <Link href=" https://www.convival.io/">
+              <Globe className="text-border"/>
+            </Link>
+            {/* <Link href="/">
               <Image
                 src={InstagramIcon}
                 alt="img"
@@ -83,18 +86,13 @@ export default function Header() {
                 height={58}
                 className="w-[106px] lg:w-full h-auto"
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <Sheet>
           <SheetTrigger className="lg:hidden">
             {/* <AlignJustify className="w-8 h-8" /> */}
-            <Image
-            src={HamburgeIcon}
-            alt="img"
-            className="w-8 h-8"
-            
-            />
+            <Image src={HamburgeIcon} alt="img" className="w-8 h-8" />
           </SheetTrigger>
           <SheetContent className="lg:hidden bg-black">
             {/* <SheetHeader>

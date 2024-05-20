@@ -37,6 +37,8 @@ const Gamemode = () => {
     },
   };
 
+  
+
   return (
     <section id="game-mode" className="relative">
       <div className="flex flex-col items-center justify-center ">
@@ -87,7 +89,6 @@ const Gamemode = () => {
                 <Image
                   src={OneTextImg}
                   alt="img"
-                  // className="h-[144px] w-[130px] md:h-auto md:w-auto"
                   className="h-[144px] w-[130px] lg:h-[300px] lg:w-[385px]"
                 />
 

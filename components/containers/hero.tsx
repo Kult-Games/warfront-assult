@@ -14,7 +14,7 @@ const Hero = () => {
         src={HeroBgImg}
         placeholder="blur"
         priority
-        className="object-cover object-center inset-0 h-full w-full hidden md:block"
+        className="object-cover w-full hidden md:block"
       />
       <Image
         src={MobileHeroBgImg}
@@ -31,8 +31,8 @@ const Hero = () => {
             className="h-full w-full hidden md:block  opacity-50"
           />
           <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] ">
-            <div className="flex flex-col items-center">
+          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[180px] lg:-space-y-5">
+            <div className="flex flex-col items-center lg:-space-y-5 ">
               <h2
                 className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"
                 style={{ letterSpacing: "0.39em" }}
@@ -41,7 +41,7 @@ const Hero = () => {
                 warfront
               </h2>
 
-              <h1 className="bg-text  font-alumiSans font-extrabold text-[140px] lg:text-[195px] uppercase leading-[125px] lg:leading-none ">
+              <h1 className="bg-text  font-alumiSans font-extrabold text-[140px] lg:text-[195px] uppercase leading-[125px] lg:leading-none">
                 assault
               </h1>
               {/* <div className="wrapper ">

@@ -43,7 +43,7 @@ const Gamemode = () => {
         <Image
           src={GameModebgImg}
           alt="img"
-          className="object-cover  inset-0 opacity-60 "
+          className="object-cover w-full h-56 inset-0 opacity-60"
         />
         <h1 className=" bg-text font-alumiSans font-extrabold text-[32px] lg:text-[80px] absolute">
           OUR GAME MODES

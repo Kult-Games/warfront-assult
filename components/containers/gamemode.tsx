@@ -332,11 +332,11 @@ const Gamemode = () => {
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
-                    Conquest
+                    RUSH
                   </h1>
                   <p className="font-alumiSans font-medium text-base lg:text-2xl w-[65%]">
-                    Teams vie for control over key points on the map to gain
-                    point
+                    An attack/defense mode where attackers aim to plant bombs,
+                    and defenders strive to prevent it
                   </p>
                   {/* <p className="lg:hidden font-alumiSans font-medium text-base lg:text-2xl w-full">
                     Will you rise as a Sentinel, forge your legacy, and shape

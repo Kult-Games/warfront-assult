@@ -238,7 +238,7 @@ const Roadmap = () => {
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
                      <li>Expert Recognition: Cement &quot;Warfront Assault&quot; and Convival Studio as leaders in the gaming industry.</li>
-                     <li>Expanding Horizons: Explore partnerships and collaborations with other industry experts to further enhance the game's ecosystem.</li>
+                     <li>Expanding Horizons: Explore partnerships and collaborations with other industry experts to further enhance the game&apos;s ecosystem.</li>
                     </ul>
                   </div>
                 </div>

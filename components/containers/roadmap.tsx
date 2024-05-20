@@ -99,7 +99,7 @@ const Roadmap = () => {
               className="w-full flex"
             >
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto overflow-visible border-t-4">
+                <div className="relative w-[280px] h-[580px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto overflow-visible border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center z-10">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -128,7 +128,7 @@ const Roadmap = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[580px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -157,7 +157,7 @@ const Roadmap = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[512px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[580px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -172,7 +172,7 @@ const Roadmap = () => {
                   <Image
                     src={RoadMapImg}
                     alt="img"
-                    className="mt-[71px] w-[241px] h-[148px]"
+                    className="mt-[98px] w-[241px] h-[148px]"
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
@@ -186,7 +186,7 @@ const Roadmap = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12 ">
-                <div className="relative w-[280px] h-[512px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[580px] bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -215,7 +215,7 @@ const Roadmap = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" pt-12">
-                <div className="relative w-[280px] h-[512px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
+                <div className="relative w-[280px] h-[580px]  bg-[linear-gradient(360deg,rgba(48,42,42,0.12)_0%,rgba(185,185,185,0.12)_100%)] backdrop-blur-lg flex flex-col justify-center items-center mx-auto border-t-4">
                   <div className="absolute -top-[48px] flex justify-center items-center">
                     <Image src={PolygonImg} alt="img" className="" />
                     <div className="absolute flex flex-col items-center uppercase">
@@ -230,7 +230,7 @@ const Roadmap = () => {
                   <Image
                     src={RoadMapImg}
                     alt="img"
-                    className="mt-[71px] w-[241px] h-[148px]"
+                    className="mt-[90px] w-[241px] h-[148px]"
                   />
                   <div className="p-4 flex flex-col gap-6">
                     <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">

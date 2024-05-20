@@ -36,11 +36,11 @@ const Hero = () => {
             alt="img"
             className="h-full w-full hidden md:block"
           />
-          <div className=" md:hidden absolute h-full w-full  bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[300px]">
-            <div className="flex flex-col items-center  lg:gap-5">
+          <div className=" md:hidden absolute w-full  bg-shadow"></div>
+          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[140px] 2xl:mb-[200px]">
+            <div className="flex flex-col items-center">
               <h2
-                className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none tracking-[39%]"
+                className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"
                 style={{ letterSpacing: "0.39em" }}
                 // style={{ letterSpacing: "39%" }}
               >
@@ -51,7 +51,7 @@ const Hero = () => {
                 assault
               </h1>
             </div>
-            <div className="flex flex-col items-center gap-[50px] lg:mt-5">
+            <div className="flex flex-col items-center gap-10">
               <p className="md:block font-alumiSans font-medium lg:font-semibold text-xl text-white text-center w-[80%] lg:w-[57%] ">
                 Engage in the ultimate combat experience on Aptos Your
                 battlefield, your rules. Deploy now!

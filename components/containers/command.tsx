@@ -32,7 +32,7 @@ const Command = () => {
         alt="img"
         className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       />
-      <div className="absolute  w-[85%] md:w-[70%] lg:w-[67%] xl:w-[47%] 2xl:w-[35%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute  w-[85%] md:w-[70%] lg:w-[67%] xl:w-[47%] 2xl:w-[45%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="containe flex flex-col gap-8 md:gap-16 lg:gap-12 justify-center items-center">
           <div className="relative flex justify-center">
             <h1 className="bg-text font-alumiSans uppercase font-extrabold text-[32px] md:text-[40px] lg:text-[64px] text-white text-center w-[83%] leading-[30px] lg:leading-none">

@@ -23,7 +23,7 @@ import SevenTextImg from "@/public/imgs/07-img.png";
 import LeftArrowImg from "@/public/imgs/left-arrow-img.png";
 import RightArrowImg from "@/public/imgs/right-arrow-img.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { EffectFade, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
@@ -53,11 +53,11 @@ const Gamemode = () => {
         <Swiper
           modules={[EffectFade, Navigation]}
           effect={"fade"}
+          loop={true}
           navigation={{
             prevEl: ".slide-prev",
             nextEl: ".slide-next",
           }}
-          className="mySwiper"
         >
           <SwiperSlide>
             <Image
@@ -87,8 +87,8 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 absolute bottom-0  ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
+                  {/* <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 absolute bottom-0  ">
+                    <div className="bg-red-500 h-16 w-[6px]"></div>
                     <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
                     <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
                     <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
@@ -96,6 +96,16 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
                     <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
                     <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  </div> */}
+
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
@@ -130,15 +140,14 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10  md:ml-0 absolute bottom-0 ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                    <div className="border border-[#ABABAB] w-5 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
@@ -173,15 +182,14 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10  md:ml-0 absolute bottom-0  ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
@@ -216,20 +224,20 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p>
-                  <div className="flex gap-1 lg:gap-10  md:ml-0 absolute bottom-0 ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <Image
               src={SearchDestroyImg}
@@ -258,20 +266,20 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10  md:ml-0 absolute bottom-0 ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4 ">
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <Image
               src={ConquestBgImg}
@@ -300,20 +308,20 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 absolute bottom-0  ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4  ">
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-5 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
                 </div>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <Image
               src={RusBgImg}
@@ -342,15 +350,14 @@ const Gamemode = () => {
                     Will you rise as a Sentinel, forge your legacy, and shape
                     the course of history?
                   </p> */}
-                  <div className="flex gap-1 lg:gap-10 ml-3 md:ml-0 absolute bottom-0  ">
-                    {/* <div className="bg-red-500 h-16 w-[6px]"></div> */}
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="border border-[#ABABAB] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 ml-8 rounded-sm hidden lg:block"></div>
-                    <div className="bg-[#FF6600] h-5 w-[3px] lg:h-16 lg:w-[6px] rotate-90 lg:ml-8 rounded-sm"></div>
+                  <div className="flex gap-1 lg:gap-6 absolute -bottom-4 ">
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                    <div className="bg-[#FF6600] w-5 lg:w-16 h-2"></div>
                   </div>
                 </div>
               </div>
@@ -358,19 +365,19 @@ const Gamemode = () => {
           </SwiperSlide>
 
           {/* <div className="flex gap-8 lg:gap-12 absolute bottom-10 lg:bottom-12  left-[45%] lg:left-[41%] z-10"> */}
-          <div className="absolute px-5 md:px-0 w-full md:w-fit h-fit flex justify-between md:justify-normal gap-8 lg:gap-12 bottom-[260px] md:bottom-10 lg:left-[41%] z-10 ">
-            <button className="slide-prev ">
+          <div className="absolute px-5 md:px-0 w-full md:w-fit h-fit flex justify-between md:justify-normal gap-8 lg:gap-12 bottom-[260px] md:bottom-10 lg:left-[41%] z-20 ">
+            <button className="slide-prev">
               <Image
                 src={LeftArrowImg}
                 alt="img"
-                className="cursor-pointer h-[36px] w-[36px] lg:h-[60px] lg:w-[60px]"
+                className="cursor-pointer h-[50px] w-[50px] lg:h-[60px] lg:w-[60px]"
               />
             </button>
             <button className="slide-next">
               <Image
                 src={RightArrowImg}
                 alt="img"
-                className="cursor-pointer h-[36px] w-[36px] lg:h-[60px] lg:w-[60px]"
+                className="cursor-pointer h-[50px] w-[50px] lg:h-[60px] lg:w-[60px]"
               />
             </button>
           </div>

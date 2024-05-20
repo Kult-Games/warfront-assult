@@ -27,8 +27,8 @@ const Update = () => {
       </div>
       <div className="absolute z-20 top-0 flex justify-center items-center w-full h-full ">
         <div className="container flex flex-col justify-center items-center gap-10 lg:gap-20">
-          <h1 className="bg-text text-stroke  font-alumiSans font-bold text-[40px] lg:text-[80px] uppercase border-b-2 leading-none">
-            keep up to the date
+          <h1 className="bg-text text-stroke  font-alumiSans font-extrabold text-[40px] lg:text-[80px] uppercase border-b-2 leading-none">
+            subscribe for updates
           </h1>
           <div className="flex flex-col items-center gap-10">
             <div className="w-full flex flex-col lg:flex-row  justify-center gap-6">
@@ -40,12 +40,17 @@ const Update = () => {
               {/* <button className="px-8 py-4 border font-montserrat text-base uppercase">
                 pre-register
               </button> */}
-              <button className="kave-btn px-8 py-4">pre-register</button>
+              <button className="kave-btn px-8 py-4">subscribe</button>
             </div>
-            <p className="text-center  lg:w-[58%] font-alumiSans text-xl text-white">
-              The Warfront beckons, and the Syndicate&apos;s grasp tightens.
-              Will you rise as a Sentinel, forge your legacy, and shape the
-              course of history? The Warfront awaits your command.
+            <p className="text-center  lg:w-[68%] font-alumiSans text-xl text-white">
+              &quot;Warfront Assault&quot; is an immersive multiplayer shooter
+              from Convival Studio, set to redefine tactical gaming. As the
+              flagship game on the Aptos Network, it combines intense combat
+              with strategic gameplay across various modes like Team Deathmatch
+              and Search & Destroy. Players can wield a diverse arsenal of
+              weapons and experience continuous updates, competitive events, and
+              community-driven enhancements. Every match is a test of skill,
+              strategy, and teamwork.
             </p>
           </div>
         </div>

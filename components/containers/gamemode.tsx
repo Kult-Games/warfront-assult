@@ -37,7 +37,7 @@ const Gamemode = () => {
     },
   };
 
-  
+  const gameModes = [{}];
 
   return (
     <section id="game-mode" className="relative">
@@ -61,22 +61,6 @@ const Gamemode = () => {
             nextEl: ".slide-next",
           }}
         >
-          <div className="absolute bottom-12 z-20 left-[44%] lg:left-[48%] flex gap-8">
-            <button className="slide-prev">
-              <Image
-                src={LeftArrowImg}
-                alt="img"
-                className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
-              />
-            </button>
-            <button className="slide-next">
-              <Image
-                src={RightArrowImg}
-                alt="img"
-                className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
-              />
-            </button>
-          </div>
           <SwiperSlide>
             <Image
               src={KillConfirmdBgImg}
@@ -89,7 +73,7 @@ const Gamemode = () => {
                 <Image
                   src={OneTextImg}
                   alt="img"
-                  className="h-[144px] w-[130px] lg:h-[300px] lg:w-[385px]"
+                  className="h-[144px] w-[130px] lg:h-[300px] lg:w-[385px] "
                 />
 
                 <div className="w-[60%] flex flex-col relative">
@@ -109,6 +93,23 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                  </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -130,6 +131,7 @@ const Gamemode = () => {
                   // className="h-[144px] w-[130px] md:h-auto md:w-auto"
                   className="h-[144px] w-[130px] lg:h-[300px] lg:w-[385px]"
                 />
+                <h1 >01</h1>
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">
@@ -151,6 +153,23 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                  </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -194,6 +213,23 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -235,6 +271,23 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
+                  </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -278,6 +331,23 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -320,6 +390,23 @@ const Gamemode = () => {
                     <div className="bg-[#FF6600] w-6 lg:w-16 h-2"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                   </div>
+
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -361,6 +448,22 @@ const Gamemode = () => {
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="border border-[#ABABAB] w-6 lg:w-16 h-2 rounded-sm"></div>
                     <div className="bg-[#FF6600] w-5 lg:w-16 h-2"></div>
+                  </div>
+                  <div className="absolute -bottom-10 z-20 flex gap-8">
+                    <button className="slide-prev">
+                      <Image
+                        src={LeftArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
+                    <button className="slide-next">
+                      <Image
+                        src={RightArrowImg}
+                        alt="img"
+                        className="cursor-pointer h-[40px] w-[40px] lg:h-[60px] lg:w-[60px]"
+                      />
+                    </button>
                   </div>
                 </div>
               </div>

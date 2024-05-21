@@ -12,7 +12,7 @@ const Update = () => {
         <Image
           src={MobileKeepUpToDateBgImg}
           alt="img"
-          className="lg:hidden top-0 inset-0 object-cover w-full h-[540px]"
+          className="lg:hidden top-0 inset-0 object-cover w-full h-[580px] "
         />
         <Image
           src={KeepUpToDateBgImg}
@@ -25,7 +25,7 @@ const Update = () => {
           className="absolute top-0 inset-0 object-cover w-sereen h-full"
         /> */}
       </div>
-      <div className="absolute z-20 top-0 flex justify-center items-center w-full my-5">
+      <div className="absolute z-20 top-0 flex justify-center items-center w-full my-12">
         <div className="container flex flex-col justify-center items-center gap-10 lg:gap-20 ">
           <h1 className="bg-text text-stroke  font-alumiSans font-extrabold text-[40px] lg:text-[80px] uppercase border-b-2 leading-none">
             subscribe for updates

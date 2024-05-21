@@ -31,7 +31,7 @@ const Hero = () => {
             className="h-full w-full hidden md:block  opacity-50"
           />
           <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[150px] md:mb-[350px] lg:mb-[180px] lg:-space-y-5">
+          <div className="absolute bottom-0 mb-[60px] md:mb-[350px] lg:mb-[180px] lg:-space-y-5">
             <div className="flex flex-col items-center lg:-space-y-5 ">
               <h2
                 className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"

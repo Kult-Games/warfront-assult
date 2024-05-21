@@ -118,7 +118,7 @@ const Roadmap = () => {
                     className="mt-[71px] w-[241px] h-[148px]"
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
+                    <h2 className=" bg-text font-alumiSans font-bold text-2xl text-whit uppercase text-start">
                       Partnership & Inception
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
@@ -154,7 +154,7 @@ const Roadmap = () => {
                     className="mt-[71px] w-[241px] h-[148px]"
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
+                    <h2 className=" bg-text font-alumiSans font-bold text-2xl text-white uppercase text-start">
                       Launch & Community Building
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
@@ -190,7 +190,7 @@ const Roadmap = () => {
                     className="mt-[98px] w-[241px] h-[148px]"
                   /> */}
                   <div className="p-4 flex flex-col gap-6 mt-5">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
+                    <h2 className="bg-text font-alumiSans font-bold text-2xl text-white uppercase text-start">
                       Feature Expansion & Beta Testing
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
@@ -226,7 +226,7 @@ const Roadmap = () => {
                     className="mt-[71px] w-[241px] h-[148px]"
                   /> */}
                   <div className="p-4 flex flex-col gap-6">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
+                    <h2 className="bg-text font-alumiSans font-bold text-2xl text-white uppercase text-start">
                       Competitive Play & Continuous Development
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">
@@ -261,7 +261,7 @@ const Roadmap = () => {
                     className="mt-[90px] w-[241px] h-[148px]"
                   /> */}
                   <div className="p-4 flex flex-col gap-6 mt-5">
-                    <h2 className="font-alumiSans font-normal text-2xl text-white uppercase text-start">
+                    <h2 className="bg-text font-alumiSans font-bold text-2xl text-white uppercase text-start">
                       Establishing as an Industry Leader
                     </h2>
                     <ul className="font-alumiSans font-medium text-xl list-disc ml-5">

@@ -131,7 +131,7 @@ const Gamemode = () => {
                   // className="h-[144px] w-[130px] md:h-auto md:w-auto"
                   className="h-[144px] w-[130px] lg:h-[300px] lg:w-[385px]"
                 />
-                <h1 >01</h1>
+                {/* <h1 >01</h1> */}
 
                 <div className="w-[60%] flex flex-col ">
                   <h1 className="font-alumiSans font-bold text-[32px] lg:text-[120px] text-white uppercase leading-none">

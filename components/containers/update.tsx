@@ -12,7 +12,7 @@ const Update = () => {
         <Image
           src={MobileKeepUpToDateBgImg}
           alt="img"
-          className="lg:hidden top-0 inset-0 object-cover w-full h-full"
+          className="lg:hidden top-0 inset-0 object-cover w-full h-[540px]"
         />
         <Image
           src={KeepUpToDateBgImg}
@@ -25,8 +25,8 @@ const Update = () => {
           className="absolute top-0 inset-0 object-cover w-sereen h-full"
         /> */}
       </div>
-      <div className="absolute z-20 top-0 flex justify-center items-center w-full h-full ">
-        <div className="container flex flex-col justify-center items-center gap-10 lg:gap-20">
+      <div className="absolute z-20 top-0 flex justify-center items-center w-full my-5">
+        <div className="container flex flex-col justify-center items-center gap-10 lg:gap-20 ">
           <h1 className="bg-text text-stroke  font-alumiSans font-extrabold text-[40px] lg:text-[80px] uppercase border-b-2 leading-none">
             subscribe for updates
           </h1>
@@ -34,7 +34,7 @@ const Update = () => {
             <div className="w-full flex flex-col lg:flex-row  justify-center gap-6">
               <input
                 type="text"
-                placeholder="Enter your email here......"
+                placeholder="Enter your email"
                 className="py-4 font-alumiSans font-medium text-xl lg:w-[40%] h-full pl-7 bg-transparent border backdrop-blur outline-none"
               />
               {/* <button className="px-8 py-4 border font-montserrat text-base uppercase">
@@ -51,6 +51,9 @@ const Update = () => {
               weapons and experience continuous updates, competitive events, and
               community-driven enhancements. Every match is a test of skill,
               strategy, and teamwork.
+              {/* The Warfront beckons, and the Syndicate's grasp tightens. Will you
+              rise as a Sentinel, forge your legacy, and shape the course of
+              history? The Warfront awaits your command. */}
             </p>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Hero = () => {
         alt="img"
         placeholder="blur"
         priority
-        className=" md:hidden object-cover object-center w-full"
+        className=" md:hidden object-cover object-center w-full h-full"
       />
       <div className="absolute inset-0 top-0">
         <div className="container relative h-full w-full flex justify-center items-center flex-col ">
@@ -31,7 +31,7 @@ const Hero = () => {
             className="h-full w-full hidden md:block  opacity-50"
           />
           <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[160px] md:mb-[450px] lg:mb-[180px] lg:-space-y-5">
+          <div className="absolute bottom-0 mb-[90px] md:mb-[450px] lg:mb-[180px] lg:-space-y-5">
             <div className="flex flex-col items-center lg:-space-y-5 ">
               <h2
                 className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"

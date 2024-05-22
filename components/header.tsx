@@ -1,3 +1,5 @@
+// "use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/icons/warfront-logo.svg";
@@ -7,6 +9,7 @@ import DiscordiconIcon from "@/public/icons/discord-icon.svg";
 import TwitterIcon from "@/public/icons/twitter-icon.svg";
 import InstagramIcon from "@/public/icons/instagram-icon.svg";
 import HamburgeIcon from "@/public/icons/mobile- hamburge-menu-icon.svg";
+import { X } from "lucide-react";
 
 import {
   Sheet,
@@ -15,6 +18,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose
 } from "@/components/ui/sheet";
 import { AlignJustify, Globe, Images, TelescopeIcon } from "lucide-react";
 
@@ -75,7 +79,7 @@ export default function Header() {
               />
             </Link>
             <Link href=" https://www.convival.io/">
-              <Globe className="text-border"/>
+              <Globe className="text-border" />
             </Link>
             {/* <Link href="/">
               <Image
@@ -89,12 +93,12 @@ export default function Header() {
             </Link> */}
           </div>
         </div>
-        <Sheet>
+        <Sheet >
           <SheetTrigger className="lg:hidden">
             {/* <AlignJustify className="w-8 h-8" /> */}
-            <Image src={HamburgeIcon} alt="img" className="w-8 h-8" />
+            <Image src={HamburgeIcon} alt="img" className="w-8 h-8"/>
           </SheetTrigger>
-          <SheetContent className="lg:hidden bg-black">
+          <SheetContent side={"left"} className="lg:hidden bg-black">
             {/* <SheetHeader>
               <SheetTitle>Are you absolutely sure?</SheetTitle>
               <SheetDescription>
@@ -102,7 +106,16 @@ export default function Header() {
                 account and remove your data from our servers.
               </SheetDescription>
             </SheetHeader> */}
-            <ul className=" flex flex-col justify-center items-center gap-5 ">
+            <div className="flex justify-between items-center">
+              <Image
+              src={Logo}
+              alt="img"
+              />
+              <SheetClose>
+              <X />
+              </SheetClose>
+            </div>
+            <ul className="flex flex-col justify-center items-start gap-5 text-[#cfc796] text-2xl pt-[50px]">
               <li>GAME MODES</li>
               <li>GENESIS PASS</li>
               <li>ROADMAP</li>

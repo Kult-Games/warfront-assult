@@ -1,6 +1,6 @@
 import Image from "next/image";
 import HeroBgImg from "@/public/imgs/hero-bg-img-2.png";
-import MobileHeroBgImg from "@/public/imgs/hero-bg-img-2-sm.png";
+import MobileHeroBgImg from "@/public/imgs/mobile-hero-bg-img.png";
 import TextShadowImg from "@/public/imgs/hero-text-shadow-img.png";
 import ButtonShadowImg from "@/public/imgs/hero-button-shadow-img.png";
 // import TextGoldenBgImg from "@/public/imgs/text-bg-golden-img.png";
@@ -21,7 +21,7 @@ const Hero = () => {
         alt="img"
         placeholder="blur"
         priority
-        className=" md:hidden object-cover object-center h-full w-full "
+        className=" md:hidden object-cover object-center w-full"
       />
       <div className="absolute inset-0 top-0">
         <div className="container relative h-full w-full flex justify-center items-center flex-col ">
@@ -31,7 +31,7 @@ const Hero = () => {
             className="h-full w-full hidden md:block  opacity-50"
           />
           <div className=" md:hidden absolute w-full opacity-30 bg-shadow"></div>
-          <div className="absolute bottom-0 mb-[60px] md:mb-[350px] lg:mb-[180px] lg:-space-y-5">
+          <div className="absolute bottom-0 mb-[160px] md:mb-[450px] lg:mb-[180px] lg:-space-y-5">
             <div className="flex flex-col items-center lg:-space-y-5 ">
               <h2
                 className="bg-text font-alumiSans font-bold text-2xl lg:text-[45px] text-white uppercase leading-none lg:leading-none tracking-[39%]"

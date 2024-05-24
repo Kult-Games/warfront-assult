@@ -28,7 +28,7 @@ const Update = () => {
       <div className="absolute z-20 top-0 flex justify-center items-center w-full pt-10">
         <div className="container flex flex-col justify-center items-center gap-10 lg:gap-20 ">
           <h1 className="bg-text text-stroke  font-alumiSans font-extrabold text-[40px] lg:text-[80px] uppercase border-b-2 leading-none">
-            subscribe for updates
+          JOIN THE EARLY ACCESS
           </h1>
           <div className="flex flex-col items-center gap-10">
             <div className="w-full flex flex-col lg:flex-row  justify-center gap-6">

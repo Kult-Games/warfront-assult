@@ -1,4 +1,4 @@
-// "use client"
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -18,11 +18,19 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-  SheetClose
+  SheetClose,
 } from "@/components/ui/sheet";
 import { AlignJustify, Globe, Images, TelescopeIcon } from "lucide-react";
 
 export default function Header() {
+  const handleButtonClick = () => {
+    window.open(
+      "https://forms.gle/CUM3anjAYegSB9RN9",
+      "_blank",
+      "noopener noreferrer"
+    );
+  };
+
   return (
     <header className="absolute lg:mt-0 top-0 inset-x-0 z-20">
       <nav className="container flex items-center justify-between py-3">
@@ -47,81 +55,72 @@ export default function Header() {
           ))}
         </ul>
         <div className="hidden lg:block">
-          <div className="flex gap-6">
-            <Link href="https://t.me/convival">
-              <Image
-                src={TelegramIcon}
-                alt="img"
-                priority
-                width={126.417}
-                height={58}
-                className="w-[106px] lg:w-full h-auto"
-              />
-            </Link>
-            {/* <Link href="/">
-              <Image
-                src={DiscordiconIcon}
-                alt="img"
-                priority
-                width={126.417}
-                height={58}
-                className="w-[106px] lg:w-full h-auto"
-              />
-            </Link> */}
-            <Link href="https://x.com/convival_io?s=21">
-              <Image
-                src={TwitterIcon}
-                alt="img"
-                priority
-                width={126.417}
-                height={58}
-                className="w-[106px] lg:w-full h-auto"
-              />
-            </Link>
-            <Link href=" https://www.convival.io/">
-              <Globe className="text-border" />
-            </Link>
-            {/* <Link href="/">
-              <Image
-                src={InstagramIcon}
-                alt="img"
-                priority
-                width={126.417}
-                height={58}
-                className="w-[106px] lg:w-full h-auto"
-              />
-            </Link> */}
+          <div className="flex items-center gap-10">
+            <div className="flex gap-6">
+              <Link href="https://t.me/convival">
+                <Image
+                  src={TelegramIcon}
+                  alt="img"
+                  priority
+                  width={126.417}
+                  height={58}
+                  className="w-[106px] lg:w-full h-auto"
+                />
+              </Link>
+              <Link href="https://x.com/convival_io?s=21">
+                <Image
+                  src={TwitterIcon}
+                  alt="img"
+                  priority
+                  width={126.417}
+                  height={58}
+                  className="w-[106px] lg:w-full h-auto"
+                />
+              </Link>
+              <Link href=" https://www.convival.io/">
+                <Globe className="text-border" />
+              </Link>
+            </div>
+            <button
+              className="kave-btn px-8 py-4 flex items-center gap-3 font-medium"
+              onClick={handleButtonClick}
+            >
+              BECOME A TESTER
+            </button>
           </div>
         </div>
-        <Sheet >
+        <button
+          className=" lg:hidden kave-btn px-5 py-3 flex items-center gap-3 font-medium bg-black"
+          onClick={handleButtonClick}
+        >
+          BECOME A TESTER
+        </button>
+        {/* <Sheet>
           <SheetTrigger className="lg:hidden">
-            {/* <AlignJustify className="w-8 h-8" /> */}
-            <Image src={HamburgeIcon} alt="img" className="w-8 h-8"/>
+            <Image src={HamburgeIcon} alt="img" className="w-8 h-8" />
           </SheetTrigger>
           <SheetContent side={"left"} className="lg:hidden bg-black">
-            {/* <SheetHeader>
-              <SheetTitle>Are you absolutely sure?</SheetTitle>
-              <SheetDescription>
-                This action cannot be undone. This will permanently delete your
-                account and remove your data from our servers.
-              </SheetDescription>
-            </SheetHeader> */}
             <div className="flex justify-between items-center">
-              <Image
-              src={Logo}
-              alt="img"
-              />
+              <Image src={Logo} alt="img" />
               <SheetClose>
-              <X />
+                <X />
               </SheetClose>
             </div>
-            <ul className="flex flex-col justify-center items-start gap-5 text-[#cfc796] text-2xl pt-[50px]">
-              <li>GAME MODES</li>
-              <li>GENESIS PASS</li>
-              <li>ROADMAP</li>
-            </ul>
+            <div className="pt-[50px] ">
+              <button
+                className="kave-btn px-8 py-4 flex items-center gap-3 font-medium"
+                onClick={handleButtonClick}
+              >
+                BECOME A TESTER
+              </button>
+              <ul className="flex flex-col justify-center items-start gap-5 text-[#cfc796] text-2xl mt-7">
+                <li>GAME MODES</li>
+                <li>GENESIS PASS</li>
+                <li>ROADMAP</li>
+              </ul>
+            </div>
           </SheetContent>
-        </Sheet>
+        </Sheet> */}
       </nav>
     </header>
   );
